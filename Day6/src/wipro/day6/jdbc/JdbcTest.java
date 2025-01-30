@@ -9,7 +9,7 @@ public class JdbcTest {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/wipro?useSSL=false", "root", "root");
-		System.out.println("Connection Successful!");
+		System.out.println("Connection Successful!\n");
 		
 		Statement cursor = conn.createStatement();
 		

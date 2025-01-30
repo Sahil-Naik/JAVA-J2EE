@@ -1,12 +1,13 @@
-package wipro.day6.jdbc;
+package wipro.day7.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
+import java.sql.PreparedStatement;
 
-public class JdbcTest2 {
+public class DynamicQuery {
 	public static void main(String[] args) throws Exception{
 		// Loading the driver class
 		Class.forName("com.mysql.cj.jdbc.Driver");
@@ -53,32 +54,37 @@ public class JdbcTest2 {
 				}
 				
 				case 2: {
+					String sql = "INSERT INTO employee VALUES (?,?,?,?)";
+					
+					PreparedStatement ps = conn.prepareStatement(sql);
+					
 					System.out.println("\nAdding Data...");
 					
 					int epId, eSalary;
 					String eName, eShift;
 					
+					// Inserting data using SQL query	
+					
 					System.out.printf("\nEnter Employee ID: ");
 					epId = sc.nextInt();
+					ps.setInt(1, epId);
 					
 					System.out.printf("\nEnter Employee Name: ");
 					eName = sc.next();
+					ps.setString(2, eName);
 					
 					System.out.printf("\nEnter Employee Shift: ");
 					eShift = sc.next();
+					ps.setString(3, eShift);
 					
 					System.out.printf("\nEnter Employee Salary: ");
 					eSalary = sc.nextInt();
-					
-					// Inserting data using SQL query
-			        String sql = "INSERT INTO employee VALUES('" + epId
-			                     + "', '" + eName + "', '" 
-			                     + eShift +"', '" +eSalary + "')";
+					ps.setInt(4, eSalary);							        
 			        
-			        System.out.println("\nQuery is: "+sql);
+			        //System.out.println("\nQuery is: "+sql);
 			        
 			        // Executing query
-		            int m = cursor.executeUpdate(sql);
+		            int m = ps.executeUpdate();
 		            if (m == 1)
 		                System.out.println(
 		                    "\nInserted successfully");
@@ -90,17 +96,22 @@ public class JdbcTest2 {
 				break;
 				
 				case 3: {
+					String sql = "DELETE FROM employee WHERE employeeId = ?";
+					
+					PreparedStatement ps = conn.prepareStatement(sql);
+					
 					System.out.println("\nDeleting record using Employee ID...");
 					int epId;
 					
 					System.out.printf("Enter ID to Delete: ");
 					epId = sc.nextInt();
+					ps.setInt(1, epId);
 					
-					String sql = "DELETE FROM employee WHERE employeeId='"+epId+"'";
-					System.out.println("\nQuery is: "+sql);
+					//String sql = "DELETE FROM employee WHERE employeeId='"+epId+"'";
+					//System.out.println("\nQuery is: "+sql);
 					
 					// Executing query
-		            int m = cursor.executeUpdate(sql);
+		            int m = ps.executeUpdate();
 		            if (m == 1)
 		                System.out.println(
 		                    "\nDeleted successfully");
