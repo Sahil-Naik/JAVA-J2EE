@@ -1,0 +1,5 @@
+package wipro.day5.lambda;
+
+public class EmptyLambda {
+
+}

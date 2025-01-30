@@ -1,0 +1,26 @@
+package com.day2.overloading.wipro;
+
+public class overriding {
+	
+	class Parent {
+		public void display() {
+			System.out.println("This is inside Parent class!");
+		}
+	}
+	
+	class Child extends Parent {
+		
+		@Override
+		public void display() {
+			System.out.println("This is inside Child Class!");
+		}
+	}
+	
+	public static void main(String[] args) {
+		Parent parObj = new Parent();
+		Parent childObj = new Child();
+		
+		
+	}
+
+}

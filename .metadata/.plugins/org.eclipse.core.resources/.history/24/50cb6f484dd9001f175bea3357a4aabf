@@ -1,0 +1,18 @@
+// Object and Class
+
+package tasks;
+
+public class day_2_a {
+	
+	int myNumber = 1;
+	String myString = "YES";
+	
+	public static void main(String[] args) {
+		System.out.println("HELLO!");
+		
+		day_2_a obj = new day_2_a();
+		System.out.println(obj.myNumber);
+		System.out.println(obj.myString);
+	}
+
+}

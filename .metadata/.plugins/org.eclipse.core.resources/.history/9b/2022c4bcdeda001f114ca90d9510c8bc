@@ -1,0 +1,17 @@
+package classes;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class DynamicArray {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> myNumbers = new ArrayList<>();
+		Scanner scanner = new Scanner(System.in);
+		
+		int countNumber = 0;
+		
+	}
+
+}

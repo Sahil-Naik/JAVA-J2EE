@@ -1,0 +1,5 @@
+package wipro.day3.exceptions;
+
+public class TryCatch {
+
+}

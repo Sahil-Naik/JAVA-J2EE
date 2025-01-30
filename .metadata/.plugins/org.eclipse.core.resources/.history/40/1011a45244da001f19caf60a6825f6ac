@@ -1,0 +1,22 @@
+package wipro.day3.exceptions;
+import java.util.Scanner;
+
+public class TryCatch {
+	
+	public static void main(String[] args) {
+		Scanner obj = new Scanner();
+		
+		System.out.println("Enter first number: ");
+		int number1 = obj.nextInt()		
+		try {
+			int division = x/"abc";
+			System.out.println("Division is: "+division);
+		}
+		catch (ArithmeticException ae) {
+			System.out.println("Division by Zero is not possible!");
+		}
+		
+		
+	}
+
+}

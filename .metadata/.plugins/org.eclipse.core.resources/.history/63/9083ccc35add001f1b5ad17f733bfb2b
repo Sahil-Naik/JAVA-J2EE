@@ -1,0 +1,21 @@
+package wipro.day5.Maps.v2;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class SumOfValues {
+	
+	public static void main(String[] args) {
+		Map<String,Integer> map = new HashMap<>();
+		
+		map.put("Class1", 128);
+		map.put("Class3", 155);
+		map.put("Class2", 121);
+		map.put("Class4", 106);
+		
+		System.out.println(map.get(1));
+	}
+
+}

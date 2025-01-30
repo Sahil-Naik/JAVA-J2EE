@@ -1,0 +1,9 @@
+package wipro.day5.Maps.v2;
+
+public class SumOfValues {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

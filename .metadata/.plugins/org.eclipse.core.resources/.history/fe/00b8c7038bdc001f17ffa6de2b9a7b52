@@ -1,0 +1,12 @@
+package wipro.day4.ArrayList;
+import java.util.PriorityQueue;
+
+public class PriorQueue {
+	
+	public static void main(String[] args) {
+		PriorityQueue PQ = new PriorityQueue();
+		
+		PQ.add(10);
+	}
+
+}

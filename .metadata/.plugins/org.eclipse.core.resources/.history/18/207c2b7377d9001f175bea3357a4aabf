@@ -1,0 +1,12 @@
+package wipro.day2.constructors;
+
+public class construct_demo_b extends construct_demo_a {
+	
+	construct_demo_b(){
+		//int number2 = 500;
+		//String userName2 = "Test2";
+		
+		System.out.println("Default B Constructor");
+	}
+	
+}

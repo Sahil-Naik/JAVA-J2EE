@@ -1,0 +1,9 @@
+package classes;
+
+public class CustomMethods {
+	
+	public int addition(int x, int y) {
+		return x+y;
+	}
+
+}

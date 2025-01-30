@@ -1,0 +1,9 @@
+package tasks;
+
+public class day_2_a {
+	
+	public static void main(String[] args) {
+		System.out.println("HELLO!");
+	}
+
+}

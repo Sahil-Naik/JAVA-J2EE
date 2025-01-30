@@ -1,0 +1,9 @@
+package wipro.day5.lambda;
+
+interface NoParameter() {
+	void show();
+}
+
+public class EmptyLambda {
+
+}

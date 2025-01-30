@@ -1,0 +1,12 @@
+package wipro.day2.constructors;
+
+public class construct_demo_a {
+	
+	construct_demo_a(){
+		//int number1 = 100;
+		//String userName1 = "Test";
+		
+		System.out.println("Default A Constructor");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.day2.wipro;
+
+public class parameterized_constructor {
+	
+	String make, model;
+	int costOfCar;
+	
+	parameterized_constructor(String x1, String x2, int y1){
+		make = x1;
+		model = x2;
+		costOfCar = y1;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package wipro.day4.ArrayList;
+import java.util.LinkedHashSet;
+
+public class LNKHashSet {
+	
+	public static void main(String[] args) {
+		LinkedHashSet lhs = new LinkedHashSet();
+		
+		lhs.add(150);
+		lhs.add(null);
+		lhs.add(149);
+		lhs.add("TEST";)
+	}
+
+}

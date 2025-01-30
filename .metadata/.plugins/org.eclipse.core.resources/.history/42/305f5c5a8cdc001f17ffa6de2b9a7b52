@@ -1,0 +1,10 @@
+package wipro.day4.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashedSet {
+	public static void main(String[] args) {
+		HashSet<Integer> hs = new HashSet<Integer>();
+		Iterator<Integer> i = hs.Iterator();
+	}
+}

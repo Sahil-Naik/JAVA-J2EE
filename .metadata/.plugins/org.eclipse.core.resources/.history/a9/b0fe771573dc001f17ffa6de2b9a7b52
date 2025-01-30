@@ -1,0 +1,54 @@
+package wipro.day4.ArrayList;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class CustomArrayList {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Object>  l = new ArrayList<Object>();
+		
+		int userChoice = 0;
+		int userAdding;
+		int userDeleting;
+		
+		do {
+			System.out.println("1 = Add element\n2 = Delete element\n3 = View List\n4 = Exit");
+			System.out.printf("Choose: ");
+			userChoice = sc.nextInt();
+			
+			switch(userChoice) {
+			case 1:
+				System.out.printf("\nEnter element to add: ");
+				userAdding = sc.nextInt();
+				l.add(userAdding);
+				break;
+				
+			case 2:
+				System.out.printf("\nEnter element to delete: ");
+				userDeleting = sc.nextInt();
+				l.remove(userDeleting);
+				break;
+				
+			case 3:
+				System.out.println("\nArray is: " + l + "\n");
+				break;
+				
+			case 4:
+				System.out.println("\nExiting...");
+				userChoice = 4;
+				break;
+				
+			default:
+				System.out.println("Invalid Choice!");
+				break;
+				
+			}
+			
+		} while (userChoice!=4);
+		
+		sc.close();
+	}
+	
+}

@@ -1,0 +1,58 @@
+package classes;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SumOfArray {
+	
+	public int ArraySum(ArrayList<Integer> arr) {
+		int arrayLength = arr.size();
+		int arraySum = 0;
+		
+		for (int i=0; i<arrayLength; i++) {
+			arraySum += arr.get(i);
+		}
+		
+		return arraySum;
+	}
+	
+	public double ArrayAverage(ArrayList<Integer> arr) {
+		int arrayLength = arr.size();
+		int arraySum = ArraySum(arr);
+		
+		return arraySum / arrayLength;
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<Integer> userArray = new ArrayList<>();
+		SumOfArray SOA = new SumOfArray();
+		
+		int userCount = 0;
+		int userNumber = 0;
+		int userArraySum = 0;
+		double userArrayAverage = 0;
+		
+		System.out.println("How many numbers to add: ");
+		userCount = scanner.nextInt();
+		
+		for (int i=0; i<userCount; i++) {
+			System.out.println("Enter element: ");
+			userNumber = scanner.nextInt();
+			userArray.add(userNumber);
+		}
+		
+		System.out.println("Array is: " + userArray);
+		
+		userArraySum = SOA.ArraySum(userArray);
+		System.out.println("\nSum of numbers in array is: " + userArraySum);
+		
+		userArrayAverage = SOA.ArrayAverage(userArray);
+		System.out.println("\nAverage of numbers in array is: " + userArrayAverage);
+		
+		scanner.close();
+	}
+	
+	
+
+}

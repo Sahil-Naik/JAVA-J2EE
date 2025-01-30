@@ -1,0 +1,6 @@
+package wipro.day3.access2;
+import wipro.day3.access1.protectedClass;
+
+public class callProtected {
+
+}

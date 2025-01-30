@@ -1,0 +1,14 @@
+package wipro.day4.ArrayList;
+
+import java.util.TreeSet;
+import java.util.SortedSet;
+
+public class SortedSetTest {
+	public static void main(String[] args) {
+		TreeSet ss = new TreeSet();
+		
+		ss.add(45);
+		ss.add(98);
+		ss.add(1);
+	}
+}

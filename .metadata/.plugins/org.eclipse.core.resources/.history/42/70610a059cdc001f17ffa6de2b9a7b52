@@ -1,0 +1,20 @@
+package wipro.day4.multiclass;
+
+public class Employee {
+	
+	private Integer epid;
+	private String epName;
+	public Integer getEpid() {
+		return epid;
+	}
+	public void setEpid(Integer epid) {
+		this.epid = epid;
+	}
+	public String getEpName() {
+		return epName;
+	}
+	public void setEpName(String epName) {
+		this.epName = epName;
+	}
+
+}

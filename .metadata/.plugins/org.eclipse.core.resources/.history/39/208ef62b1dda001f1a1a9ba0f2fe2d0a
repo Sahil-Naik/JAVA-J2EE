@@ -1,0 +1,12 @@
+package wipro.day3.inter;
+
+public class Cat extends Mammal implements Animalia {
+	@Override
+    public void makeSound() {
+        System.out.println("Meow! Meow!");
+    }
+
+    public void fetch() {
+        System.out.println("The dog is fetching the ball.");
+    }
+}

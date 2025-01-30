@@ -1,0 +1,12 @@
+package wipro.day3.inter;
+
+public class Main {
+	public static void main(String[] args) {
+        Cat dog = new Cat();
+        
+        // Call methods from the Dog class
+        dog.makeSound(); // From Animal interface
+        dog.walk();      // From Mammal class
+        dog.fetch();     // From Dog class
+    }
+}

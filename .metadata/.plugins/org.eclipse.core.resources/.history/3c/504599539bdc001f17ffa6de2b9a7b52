@@ -1,0 +1,11 @@
+package wipro.day4.multiclass;
+
+import java.util.TreeSet;
+
+public class Test1 {
+	
+	public static void main(String[] args) {
+		TreeSet<Integer> employee = new TreeSet<Integer>();
+	}
+
+}

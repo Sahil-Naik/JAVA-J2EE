@@ -1,0 +1,19 @@
+package classes;
+import java.util.ArrayList;
+
+public class Collections_ArrayList {
+	
+	public static void main(String[] args) {
+		ArrayList<String> cars = new ArrayList<>();
+		cars.add("BMW");
+		cars.add("FERRARI");
+		
+		
+		System.out.println("Array contains: "+cars);
+		
+		cars.remove("FERRARI");
+		
+		System.out.println("Array contains: "+cars);
+	}
+
+}

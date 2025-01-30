@@ -1,0 +1,10 @@
+package wipro.day3.access1;
+
+public class Test1 {
+	
+	public static void main(String[] args) {
+		defClass obj = new defClass();
+		
+		obj.display();
+	}
+}

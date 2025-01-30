@@ -1,0 +1,19 @@
+// Default Constructor
+
+package com.day2.wipro;
+
+public class constructor_1 {
+	
+	String make, model;
+	
+	constructor_1(){
+		String make = "BMW";
+		String model = "M5";
+	}
+	
+	public static void main(String[] args) {
+		constructor_1 carsObj = new constructor_1();
+		System.out.println(carsObj.make);
+	}
+
+}

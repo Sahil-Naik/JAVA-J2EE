@@ -1,0 +1,10 @@
+package wipro.day3.access;
+
+class Data {
+    // private variable
+    private String name;
+}
+
+public class Private {
+
+}

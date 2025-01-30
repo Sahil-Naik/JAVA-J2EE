@@ -1,0 +1,15 @@
+package classes;
+import java.util.Scanner;
+
+public class Test1 {
+	
+	public static void main(String[] args) {
+		CustomMethods operation = new CustomMethods();
+		Scanner obj = new Scanner(System.in);
+		
+		System.out.println("Enter first number: ");
+		int userNumber1 = obj.nextInt();
+		
+	}
+
+}

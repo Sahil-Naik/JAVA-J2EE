@@ -1,0 +1,16 @@
+package wipro.day3.access;
+
+class Data {
+    // private variable
+    private String userName;
+}
+
+public class Private {
+	public static void main(String[] main){
+
+        Data d = new Data();
+        
+        d.userName = "WE PRO";        
+        // This will throw an error, we cannot modify private variable of other class
+    }
+}

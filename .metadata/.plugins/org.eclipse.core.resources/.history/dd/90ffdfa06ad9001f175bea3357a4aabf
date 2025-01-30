@@ -1,0 +1,9 @@
+package com.day2.overloading.wipro;
+
+public class overloading {
+	
+	public void display(int a) {
+		System.out.println("There is only 1 arguement: "+ a);
+	}
+
+}
