@@ -1,8 +1,0 @@
-package wipro.day3.access1;
-
-class defClass {
-	void display() 
-    { 
-        System.out.println("Hello World!"); 
-    } 
-}

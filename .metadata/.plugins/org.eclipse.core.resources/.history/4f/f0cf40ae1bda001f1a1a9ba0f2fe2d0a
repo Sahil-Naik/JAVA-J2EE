@@ -1,7 +1,0 @@
-package wipro.day3.access1;
-
-public class protectedClass {
-	protected void msg(){
-		System.out.println("I'm from Different package's Protected Class!");
-		}  
-}

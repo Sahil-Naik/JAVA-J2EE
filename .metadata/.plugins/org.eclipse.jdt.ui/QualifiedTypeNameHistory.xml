@@ -24,4 +24,13 @@
     <fullyQualifiedTypeName name="com.mysql.cj.CoreSession"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="wipro.day7.jdbc.TransactionDemo"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="wipro.day8.OOPtest.OperationClass"/>
+    <fullyQualifiedTypeName name="org.junit.AfterClass"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.types.basic.BasicAddressFieldWrapper"/>
+    <fullyQualifiedTypeName name="classes.OperationsOnArray"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
 </qualifiedTypeNameHistroy>
