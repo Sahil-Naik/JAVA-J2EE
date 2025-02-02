@@ -26,6 +26,7 @@ public class DynamicArray {
 		
 		System.out.println("\nNumbers are: " + myNumbers);		
 		
+		scanner.close();
 	}
 
 }

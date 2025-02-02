@@ -1,0 +1,3 @@
+This is a file containing details
+name: test
+salary: 1000

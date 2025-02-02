@@ -20,23 +20,16 @@ public class SortTest {
             digitList.add(Character.getNumericValue(numberStr.charAt(i)));
         }
         //System.out.println(digitList);
-        
+        int n = digitList.size();
         // Outer loop
-        for (int i = 0; i <= digitList.size()-1; i++) {
-
-            // Inner nested loop pointing 1 index ahead
-            for (int j = i + 1; j <= digitList.size()-1; j++) {
-
-                // Checking elements
-                int temp = 0, i_ele, j_ele;
-                if (digitList.get(j) < digitList.get(i)) {
-                	i_ele = digitList.get(i);
-                	j_ele = digitList.get(j);
-                    // Swapping
-                	swaps++;
-                    temp = digitList.get(i);
-                    i_ele = digitList.get(j);
-                    j_ele = temp;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (digitList.get(j) > digitList.get(j + 1)) {  // Correct comparison
+                    // Swap arr[j] and arr[j + 1]
+                    int temp = digitList.get(j);
+                    swaps++;
+                    digitList.set(j, digitList.get(j + 1));
+                    digitList.set(j + 1, temp);
                 }
             }
         }        
