@@ -1,9 +1,0 @@
-package wipro.day3.Hospital;
-
-public class Doctors {
-	
-	class viewAppointments() {
-		
-	}
-
-}

@@ -1,7 +1,0 @@
-package wipro.day3.Hospital;
-
-public class Doctors {
-	
-	static String[] docID = ["DCX1", "DCX2", "DCX3"];
-
-}

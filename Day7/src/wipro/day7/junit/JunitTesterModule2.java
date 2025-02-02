@@ -4,14 +4,13 @@ import wipro.day7.jdbc.TransactionDynamic;
 
 import static org.junit.Assert.*;
 import java.sql.Connection;
-import java.sql.SQLException;
 
 import org.junit.Test;
 
 public class JunitTesterModule2 {
 
 	@Test
-	public void testCheckAccount() throws SQLException, ClassNotFoundException {
+	public void testCheckAccount() throws Exception {
 
 		// Setting up Dummy Connection
 		Class.forName("com.mysql.cj.jdbc.Driver");
@@ -37,7 +36,7 @@ public class JunitTesterModule2 {
 	}
 
 	@Test
-	public void testCheckBalance() throws SQLException, ClassNotFoundException {
+	public void testCheckBalance() throws Exception {
 
 		// Setting up Dummy Connection
 		Class.forName("com.mysql.cj.jdbc.Driver");
@@ -60,7 +59,7 @@ public class JunitTesterModule2 {
 	}
 	
 	@Test
-	public void testUserLogin() throws SQLException, ClassNotFoundException {
+	public void testUserLogin() throws Exception {
 
 		// Setting up Dummy Connection
 		Class.forName("com.mysql.cj.jdbc.Driver");

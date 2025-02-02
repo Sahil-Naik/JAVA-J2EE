@@ -6,13 +6,16 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.PreparedStatement;
 import java.util.Scanner;
+import java.sql.PreparedStatement;
 
 public class TransactionDynamic {
 
 	// Function to get a database connection
-	public static Connection getConnection() throws SQLException {
+	public static Connection getConnection() throws Exception, SQLException  {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
 		String url = "jdbc:mysql://localhost:3306/wipro?useSSL=false";
 		String user = "root";
 		String password = "root";
