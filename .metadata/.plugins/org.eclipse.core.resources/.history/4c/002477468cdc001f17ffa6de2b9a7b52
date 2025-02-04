@@ -1,7 +1,0 @@
-package wipro.day4.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-
-public class HashedSet {
-
-}

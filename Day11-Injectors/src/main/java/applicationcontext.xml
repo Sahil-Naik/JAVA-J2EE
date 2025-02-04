@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- setter injection -->
+	<bean id="employee" class="wipro.day11.Employee">
+		<property name="employeeID" value="1001" />
+		<property name="employeeName" value="Sahil" />
+		<property name="employeeDepartment" value="IT" />
+		<property name="employeeSalary" value="25000" />
+
+	<!-- constructor injection -->
+		<constructor-arg name="employeeID" value="1002" />
+		<constructor-arg name="employeeName" value="Rock" />
+		<constructor-arg name="employeeDepartment" value="Box" />
+		<constructor-arg name="employeeSalary" value="27650" />
+	</bean>
+
+
+</beans>
