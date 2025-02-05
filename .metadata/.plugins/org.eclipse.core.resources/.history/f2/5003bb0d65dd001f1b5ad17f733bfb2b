@@ -1,9 +1,0 @@
-package wipro.day5.lambda;
-
-interface CustomMethod {
-	void multiply();
-}
-
-public class TestLambda1 {
-
-}

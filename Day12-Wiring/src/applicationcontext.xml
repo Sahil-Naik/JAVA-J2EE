@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="wipro.day12.Employee">
+		<property name="employeeID" value="1001" />
+		<property name="employeeName" value="Sahil" />
+		<property name="employeeDepartment" value="IT" />
+		<property name="employeeSalary" value="25000" />
+		<property name="address" ref="add" />
+		<property name="skills">
+			<list>
+				<value>Python</value>
+				<value>Quick-Learner</value>
+				<value>Java SDE</value>
+				<value>Data Scientist</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="add" class="wipro.day12.Address">
+		<property name="cityName" value="Pune"></property>
+		<property name="stateName" value="Maharashtra"></property>
+		<property name="pincode" value="411001"></property>
+	</bean>
+
+
+</beans>
