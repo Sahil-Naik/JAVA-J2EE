@@ -10,7 +10,7 @@ public class Main {
         Transaction tx = session.beginTransaction();
         
         //Employee emp = new Employee("John Doe", "Day", 50000); When used generate.IDENTITY it will use SQL auto-increment
-        Employee emp = new Employee("Denim High", "Night", 35000); // when used generate.AUTO it will start from 1, 2, 3, . . .
+        Employee emp = new Employee("Test", "Day", 25000); // when used generate.AUTO it will start from 1, 2, 3, . . .
         session.persist(emp);
 
         tx.commit();

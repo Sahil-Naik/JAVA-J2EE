@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 public class Employee {
 
     @Id // This means that the following variable is Primary key in the SQL (Database)
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Can be AUTO, SEQUENCE, TABLE
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Can be AUTO, SEQUENCE, TABLE, IDENTITY
     private int employeeId;
 
     private String employeeName;
