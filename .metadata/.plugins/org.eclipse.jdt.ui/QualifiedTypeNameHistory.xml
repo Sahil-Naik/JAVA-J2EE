@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.rmi.server.Operation"/>
     <fullyQualifiedTypeName name="wipro.day3.exceptions.FaultyMethod"/>
     <fullyQualifiedTypeName name="javax.crypto.AEADBadTagException"/>
     <fullyQualifiedTypeName name="classes.CustomMethods"/>
@@ -16,7 +14,6 @@
     <fullyQualifiedTypeName name="java.util.concurrent.CompletionException"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="classes.SortTest"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.mysql.cj.CoreSession"/>
@@ -43,7 +40,6 @@
     <fullyQualifiedTypeName name="wipro.day11.mavensample.BankQueries"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="milestone.practice.Employee"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
@@ -54,8 +50,14 @@
     <fullyQualifiedTypeName name="wipro.day13.config.AppConfig"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="wipro.day14.model.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="wipro.day16.DAO.CustomerDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="wipro.day16.model.Customer"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.BeanPropertyRowMapper"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
