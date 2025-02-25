@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="wipro.day3.exceptions.FaultyMethod"/>
-    <fullyQualifiedTypeName name="javax.crypto.AEADBadTagException"/>
-    <fullyQualifiedTypeName name="classes.CustomMethods"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="classes.SumOfArray"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="wipro.day16.model.Customer"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.BeanPropertyRowMapper"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="wipro.day18.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
 </qualifiedTypeNameHistroy>

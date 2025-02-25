@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Management</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+button, input {
+	padding: 10px;
+	margin: 10px;
+	font-size: 16px;
+}
+</style>
+</head>
+<body>
+
+	<h1>Employee Management System</h1>
+
+	<button onclick="window.location.href='/api/employees/all'">View
+		All Employees</button>
+	<button onclick="window.location.href='/welcome/page1'">Go to
+		Page 1</button>
+	<button onclick="window.location.href='/welcome/page2'">Go to
+		Page 2</button>
+
+	<hr>
+
+	<!-- Form to Add a New Employee -->
+	<h3>Add New Employee</h3>
+	<form action="/api/employees/add" method="post">
+		<input type="text" name="employeeName" placeholder="Name" required>
+		<input type="text" name="employeeShift" placeholder="Shift" required>
+		<input type="number" name="employeeSalary" placeholder="Salary"
+			required>
+		<button type="submit">Add</button>
+	</form>
+
+	<script>
+    document.getElementById('addEmployeeForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const formData = new FormData(this);
+        const employeeData = {
+            employeeName: formData.get('employeeName'),
+            employeeShift: formData.get('employeeShift'),
+            employeeSalary: formData.get('employeeSalary')
+        };
+
+        fetch('/api/employees/add', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(employeeData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Employee added:', data);
+            // Optionally, you can reset the form or show a success message
+            document.getElementById('addEmployeeForm').reset();
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+    });
+</script>
+
+	<hr>
+
+	<!-- Form to Search Employee by ID -->
+	<h3>Search Employee by ID</h3>
+	<form id="searchForm">
+		<input type="number" id="employeeId" placeholder="Enter Employee ID"
+			required>
+		<button type="button" onclick="fetchEmployee()">Search</button>
+	</form>
+
+	<div id="employeeDetails"></div>
+
+	<script>
+        function fetchEmployee() {
+            var employeeId = document.getElementById("employeeId").value;
+            fetch("/api/employees/" + employeeId)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.employeeId) {
+                        document.getElementById("employeeDetails").innerHTML =
+                            "<h3>Employee Details</h3>" +
+                            "<p><strong>ID:</strong> " + data.employeeId + "</p>" +
+                            "<p><strong>Name:</strong> " + data.employeeName + "</p>" +
+                            "<p><strong>Shift:</strong> " + data.employeeShift + "</p>" +
+                            "<p><strong>Salary:</strong> " + data.employeeSalary + "</p>";
+                    } else {
+                        document.getElementById("employeeDetails").innerHTML = "<p style='color: red;'>Employee not found.</p>";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching employee:", error);
+                    document.getElementById("employeeDetails").innerHTML = "<p style='color: red;'>Error fetching employee details.</p>";
+                });
+        }
+    </script>
+
+</body>
+</html>
