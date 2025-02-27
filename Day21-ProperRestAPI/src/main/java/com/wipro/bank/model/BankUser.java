@@ -23,7 +23,7 @@ public class BankUser {
     private int phone;
 	
 	@NotNull(message = "Account pin cannot be null.")
-    @Min(value = 4, message = "Pin must be 4 digit")
+    @Min(value = 1000, message = "Pin must be 4 digit")
 	@Column(name = "accountPin", updatable = false, nullable = false)
     private int accountPin;
 	
