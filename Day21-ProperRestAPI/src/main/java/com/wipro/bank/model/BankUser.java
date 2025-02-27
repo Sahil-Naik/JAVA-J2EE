@@ -1,11 +1,39 @@
 package com.wipro.bank.model;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+@Entity
+@Table(name="bank")
 public class BankUser {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "accountId", updatable = false, nullable = false)
     private int accountId;
+	
+	@NotBlank(message = "Holder name cannot be blank")
+	@Column(name = "holderName", updatable = false, nullable = false)
     private String holderName;
+	
+	@NotNull(message = "Phone number cannot be blank")
+	@Column(name = "phone", updatable = false, nullable = false)
     private int phone;
+	
+	@NotNull(message = "Account pin cannot be null.")
+    @Min(value = 4, message = "Pin must be 4 digit")
+	@Column(name = "accountPin", updatable = false, nullable = false)
     private int accountPin;
+	
+	@NotBlank(message = "Holder Date of Birth cannot be blank")
+	@Column(name = "holderDob", updatable = false, nullable = false)
     private String holderDob;
+	
+	@NotNull(message = "Balance cannot be null.")
+	@Min(value = 0, message = "Balance must be greater than 0.")
+	@Column(name = "balance", updatable = false, nullable = false)
     private int balance;
 
     // Constructor
@@ -18,7 +46,11 @@ public class BankUser {
         this.balance = balance;
     }
 
-    // Getters and Setters
+    public BankUser() {
+		// TODO Auto-generated constructor stub
+	}
+
+	// Getters and Setters
     public int getAccountId() {
         return accountId;
     }

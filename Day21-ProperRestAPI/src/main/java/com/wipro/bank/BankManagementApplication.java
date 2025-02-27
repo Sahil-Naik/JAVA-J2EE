@@ -13,3 +13,7 @@ public class BankManagementApplication {
 	}
 
 }
+
+/* 1. Paginate
+ * localhost:9090/bank/paginate?page=1&size=3&sortBy=holderName 
+*/

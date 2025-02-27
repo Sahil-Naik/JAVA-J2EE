@@ -9,5 +9,10 @@ import com.wipro.bank.model.BankUser;
 
 @Repository
 public interface BankUserRepository extends JpaRepository<BankUser, Integer>{
-
+	@Query("SELECT c FROM BankUser c WHERE c.balance > :balance")
+	List<BankUser> findBankUserBalanceGreaterThan(@Param("balance") int balance);
+	
+	@Query("SELECT c FROM BankUser c WHERE c.balance < :balance")
+	List<BankUser> findBankUserBalanceLessThan(@Param("balance") int balance);
+	
 }
