@@ -3,6 +3,7 @@ package com.wipro.bank.service;
 import com.wipro.bank.model.BankUser;
 import com.wipro.bank.repository.BankUserRepository;
 import com.wipro.bank.DTO.BankUserDTO;
+import com.wipro.bank.DTO.BankUserRequestDTO;
 import com.wipro.bank.exceptions.*;
 
 import org.springframework.data.domain.Page;
@@ -19,8 +20,15 @@ public class BankUserService {
 	@Autowired
 	private BankUserRepository bankUserRepository;
 	
-	public BankUser addBankUser(BankUser bankUser) {
-		return bankUserRepository.save(bankUser);
+	public BankUser addBankUser(BankUserRequestDTO dto) {
+	    BankUser bankUser = new BankUser();
+	    bankUser.setHolderName(dto.getHolderName());
+	    bankUser.setPhone(dto.getPhone());
+	    bankUser.setHolderDob(dto.getHolderDob());
+	    bankUser.setAccountPin(dto.getAccountPin());
+	    bankUser.setBalance(dto.getBalance());
+
+	    return bankUserRepository.save(bankUser);
 	}
 	
 	public List<BankUser> getAllBankUsers(){

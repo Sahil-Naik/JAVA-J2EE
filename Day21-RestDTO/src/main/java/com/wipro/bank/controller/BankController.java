@@ -1,6 +1,7 @@
 package com.wipro.bank.controller;
 
 import com.wipro.bank.DTO.BankUserDTO;
+import com.wipro.bank.DTO.BankUserRequestDTO;
 import com.wipro.bank.model.BankUser;
 import com.wipro.bank.service.BankUserService;
 
@@ -20,16 +21,9 @@ public class BankController {
 	private BankUserService bankUserService;
 	
 	@PostMapping("/add")
-	public ResponseEntity<BankUser> addBankUser(@Valid @RequestBody BankUser newBankUser){
-		BankUser BU = new BankUser();
-		BU.setHolderName(newBankUser.getHolderName());
-		BU.setHolderDob(newBankUser.getHolderDob());
-		BU.setPhone(newBankUser.getPhone());
-		BU.setAccountPin(newBankUser.getAccountPin());
-		BU.setBalance(newBankUser.getBalance());
-		
-		BankUser savedBankUser = bankUserService.addBankUser(BU);
-		return ResponseEntity.ok(savedBankUser);
+	public ResponseEntity<BankUser> addBankUser(@Valid @RequestBody BankUserRequestDTO dto) {
+	    BankUser savedUser = bankUserService.addBankUser(dto);
+	    return ResponseEntity.ok(savedUser);
 	}
 	
 	@GetMapping("/view-all")
