@@ -3,6 +3,7 @@ package com.wipro.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name="customers")
@@ -17,7 +18,7 @@ public class Customer {
 	@Column(name = "customer_city", updatable = false, nullable = false)
 	private String customerCity;
 	
-	@NotBlank(message = "Customer bill cannot be null")
+	@NotNull(message = "Customer bill cannot be null")
 	@Min(value = 0, message = "Bill must be at lease Rs. 0")
 	@Column(name = "customer_bill", updatable = false, nullable = false)
 	private int customerBill;
