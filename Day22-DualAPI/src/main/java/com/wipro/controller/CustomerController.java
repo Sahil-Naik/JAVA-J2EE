@@ -5,6 +5,10 @@ import com.wipro.model.Customer;
 import com.wipro.service.CustomerService;
 
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 import org.springframework.data.domain.Page;
@@ -42,6 +46,14 @@ public class CustomerController {
 	
 	@GetMapping("/{id}")
 	@Operation(summary = "View Customer with ID", description = "Displays Customer records with ID x")
+	@ApiResponses(value = { 
+			  @ApiResponse(responseCode = "200", description = "Found the Customer", 
+			    content = { @Content(mediaType = "application/json", 
+			      schema = @Schema(implementation = Customer.class)) }),
+			  @ApiResponse(responseCode = "400", description = "Invalid id supplied", 
+			    content = @Content), 
+			  @ApiResponse(responseCode = "404", description = "Customer not found", 
+			    content = @Content) })
 	public ResponseEntity<CustomerDTO> getCustomer(@PathVariable int id){
 		CustomerDTO custDTO = customerService.getCustomerById(id);
 		
@@ -55,7 +67,7 @@ public class CustomerController {
 	}
 	
 	@GetMapping("/city-bill-greater-than")
-	@Operation(summary = "Customer with bill greater than", description = "Displays Customer record having Bill greater than x")
+	@Operation(summary = "Customer from city with bill greater than", description = "Displays Customer record having Bill greater than x and in City y")
 	public List<Customer> getCustomersByCityAndBillGreaterThan(
 	        @RequestParam String city, 
 	        @RequestParam double amount) {
@@ -63,7 +75,7 @@ public class CustomerController {
 	}
 	
 	@GetMapping("/city-bill-less-than")
-	@Operation(summary = "Customer with bill less than", description = "Displays Customer record having Bill less than x")
+	@Operation(summary = "Customer from city with bill less than", description = "Displays Customer record having Bill less than x and in City y")
 	public List<Customer> getCustomersByCityAndBillLessThan(
 	        @RequestParam String city, 
 	        @RequestParam double amount) {
