@@ -1,5 +1,6 @@
 package com.wipro.customer.controller;
 
+import com.wipro.customer.DTO.APIResponseDTO;
 import com.wipro.customer.DTO.CustomerDTO;
 import com.wipro.customer.model.Customer;
 import com.wipro.customer.service.CustomerService;
@@ -60,6 +61,13 @@ public class CustomerController {
     public ResponseEntity<CustomerDTO> getCustomer(@PathVariable int id) {
         CustomerDTO custDTO = customerService.getCustomerById(id);
         return ResponseEntity.ok(custDTO);
+    }
+    
+    @GetMapping("/bankid-{bankId}")
+    @Operation(summary = "View Customer with BankID", description = "Displays Customer records with Bank-ID x")
+    public ResponseEntity<APIResponseDTO> getCustomerByBankId(@PathVariable String bankId){
+    	APIResponseDTO custDTO = customerService.getCustomerByBankId(bankId);
+    	return ResponseEntity.ok(custDTO);
     }
     
     @GetMapping("/bill-greater-than")

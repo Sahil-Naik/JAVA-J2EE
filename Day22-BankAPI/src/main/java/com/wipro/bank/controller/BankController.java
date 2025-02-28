@@ -42,7 +42,7 @@ public class BankController {
 	}
 	
 	@GetMapping("/{id}")
-    @Operation(summary = "View Customer with ID", description = "Displays Customer records with ID x")
+    @Operation(summary = "View Bank user with ID", description = "Displays Customer records with ID x")
 	public ResponseEntity<BankDTO> getBankUser(@PathVariable int id){
 		BankDTO bankDTO = bankService.getBankUserById(id);
 		return ResponseEntity.ok(bankDTO);

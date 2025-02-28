@@ -1,6 +1,8 @@
 package com.wipro.customer.service;
 
 import com.wipro.customer.exception.ResourceNotFoundException;
+import com.wipro.customer.DTO.APIResponseDTO;
+import com.wipro.customer.DTO.BankDTO;
 import com.wipro.customer.DTO.CustomerDTO;
 import com.wipro.customer.model.Customer;
 import com.wipro.customer.repository.CustomerRepository;
@@ -8,9 +10,11 @@ import com.wipro.customer.repository.CustomerRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.ResponseEntity;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-
+import org.springframework.web.client.RestTemplate;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 import java.util.Optional;
@@ -20,6 +24,12 @@ public class CustomerService {
     
     @Autowired
     private CustomerRepository customerRepository;
+    
+    @Autowired
+	private ModelMapper mapper;
+    
+    @Autowired
+	private RestTemplate restTemplate;
     
     public Customer addCustomer(Customer customer) {
         return customerRepository.save(customer);
@@ -35,6 +45,26 @@ public class CustomerService {
         
         // Convert to DTO before returning
         return new CustomerDTO(cust.getCustomerId(), cust.getCustomerPhone(), cust.getCustomerBill(), cust.getCustomerBankId(), cust.getCustomerStore());
+    }
+    
+    public APIResponseDTO getCustomerByBankId(String bankId) {
+        Customer cust = customerRepository.findByBankId(bankId)
+                .orElseThrow(() -> new ResourceNotFoundException("Customer with Account-ID " + bankId + " not found."));
+        
+        // Convert to DTO before returning
+        ResponseEntity<BankDTO> responseEntity = restTemplate.getForEntity("http://localhost:6061/api/bank/"+cust.getCustomerBankId(), BankDTO.class);
+        
+        BankDTO bankDTO = responseEntity.getBody();
+        
+        CustomerDTO custDTO = mapper.map(cust, CustomerDTO.class);
+        
+        APIResponseDTO apiResponseDto = new APIResponseDTO();
+        
+        apiResponseDto.setBankDTO(bankDTO);
+        
+        apiResponseDto.setCustomerDTO(custDTO);
+        
+        return apiResponseDto;
     }
     
     public List<Customer> getCustomersByBillGreaterThan(double amount) {

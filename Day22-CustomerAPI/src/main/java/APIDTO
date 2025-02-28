@@ -1,0 +1,90 @@
+package com.wipro.service;
+ 
+import org.modelmapper.ModelMapper;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.stereotype.Service;
+
+import org.springframework.web.client.RestTemplate;
+ 
+import com.wipro.dto.APIResponseDto;
+
+import com.wipro.dto.DepartmentDto;
+
+import com.wipro.dto.EmployeeDto;
+
+import com.wipro.entity.Employee;
+
+import com.wipro.repository.EmployeeRepository;
+ 
+@Service
+
+public class EmployeeServiceImpl implements EmployeeService {
+ 
+	@Autowired
+
+	private EmployeeRepository employeeRepository;
+
+	@Autowired
+
+	private ModelMapper mapper;
+
+	@Autowired
+
+	private RestTemplate restTemplate;
+
+	@Override
+
+	public EmployeeDto saveEmployee(EmployeeDto dto) {
+
+
+		//convert dto to entity 
+
+		Employee employee = mapper.map(dto, Employee.class);
+
+ 
+		
+
+		Employee savedEmployee = employeeRepository.save(employee);
+
+		//convert entity to dto
+
+		return mapper.map(savedEmployee, EmployeeDto.class);
+
+	}
+ 
+	
+ 
+	@Override
+
+	public APIResponseDto getEmployeeById(Long employeeId) {
+
+		// TODO Auto-generated method stub
+
+		Employee employee = employeeRepository.findById(employeeId).get();
+
+		ResponseEntity<DepartmentDto> responseEntity = restTemplate.getForEntity("http://localhost:9090/departments/"+employee.getDepartmentCode(), DepartmentDto.class);
+
+		DepartmentDto departmentDto = responseEntity.getBody();
+
+
+		EmployeeDto employeeDto = mapper.map(employee, EmployeeDto.class);
+
+		APIResponseDto apiresponseDto = new APIResponseDto();
+
+		apiresponseDto.setDepartmentDto(departmentDto);
+
+		apiresponseDto.setEmployeeDto(employeeDto);
+
+		return apiresponseDto;
+
+	}
+ 
+	
+ 
+}
+
+ 
