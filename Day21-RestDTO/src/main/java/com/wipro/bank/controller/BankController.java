@@ -53,7 +53,7 @@ public class BankController {
     public Page<BankUser> getBankUsers(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size,
-            @RequestParam(defaultValue = "customerCity") String sortBy,
+            @RequestParam(defaultValue = "accountId") String sortBy,
             @RequestParam(defaultValue = "asc") String direction) {
         return bankUserService.getBankUserPaged(page, size, sortBy, direction);
     }
