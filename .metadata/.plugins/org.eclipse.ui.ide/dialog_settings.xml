@@ -65,6 +65,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day23-ServerEmployee"/>
 			<item value="F:\JAVA-J2EE\Day22-FeignClientCustomerAPI"/>
 			<item value="F:\JAVA-J2EE\Day22-FeignClientBankAPI"/>
 			<item value="F:\JAVA-J2EE\Day22-WebClientCustomerAPI"/>

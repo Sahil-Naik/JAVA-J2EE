@@ -31,12 +31,12 @@ public class BankController {
 		return ResponseEntity.ok(savedBankUser);
 	}
 	
-	@GetMapping("/view-all")
+	@GetMapping("/all")
 	public List<BankUser> getAllBankUsers(){
 		return bankUserService.getAllBankUsers();
 	}
 	
-	@GetMapping("/getid-{id}")
+	@GetMapping("/{id}")
 	public BankUser getBankUserById(@PathVariable int id) {
 		return bankUserService.getBankUserById(id);
 	}

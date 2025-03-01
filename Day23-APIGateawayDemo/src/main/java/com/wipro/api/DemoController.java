@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("api")
 public class DemoController {
 
-    @GetMapping("/gfg")
+    @GetMapping("/default")
     public ResponseEntity<String> getAnonymous() {
         return ResponseEntity.ok("Welcome to API Gateaway");
     }
