@@ -4,8 +4,11 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1737605559197_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756688275_7" label="Day20-29" name="Day20-29">
 <item elementID="=Day20-SpringBootAPIPaged" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerA" type="4"/>
 <item elementID="=Day22-FeignClientCustomerAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-RESTCustomerAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerB" type="4"/>
+<item elementID="=Day23-ServerBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-ReactiveSpringBoot_demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day21-RestDTO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-RESTBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -17,8 +20,6 @@
 <item elementID="=Day22-WebClientCustomerAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-EurekaServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerA" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerB" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756713078_8" label="Day10-19" name="Day10-19">
 <item elementID="=Day17-HiberORM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
