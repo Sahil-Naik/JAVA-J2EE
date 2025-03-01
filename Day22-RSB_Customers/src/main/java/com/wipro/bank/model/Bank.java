@@ -1,13 +1,22 @@
 package com.wipro.bank.model;
 
+import org.springframework.stereotype.Repository;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+/*@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Repository*/
 @Entity
 @Table(name = "bank")
-public class BankUser {
+public class Bank {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,7 +47,7 @@ public class BankUser {
 
 	// Constructor
 
-	public BankUser(int accountId, String holderName, int phone, int accountPin, String holderDob, int balance) {
+	public Bank(int accountId, String holderName, int phone, int accountPin, String holderDob, int balance) {
 		this.accountId = accountId;
 		this.holderName = holderName;
 		this.phone = phone;
@@ -47,7 +56,7 @@ public class BankUser {
 		this.balance = balance;
 	}
 
-	public BankUser() {
+	public Bank() {
 		// TODO Auto-generated constructor stub
 	}
 

@@ -1,8 +1,14 @@
 package com.wipro.bank.repository;
 
-import com.wipro.bank.model.BankUser;
-import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import com.wipro.bank.model.Bank;
 
-public interface BankREPO extends ReactiveCrudRepository<BankUser, Integer> {
-	
+import reactor.core.publisher.Flux;
+
+import org.springframework.data.r2dbc.repository.R2dbcRepository;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BankREPO extends R2dbcRepository<Bank, Integer> {
+    //Flux<BankUser> findByTitleContaining(String title);
 }

@@ -1,6 +1,6 @@
 package com.wipro.bank.controller;
 
-import com.wipro.bank.model.BankUser;
+import com.wipro.bank.model.Bank;
 import com.wipro.bank.service.BankUserService;
 
 import reactor.core.publisher.Flux;
@@ -16,17 +16,17 @@ public class BankUserController {
     private BankUserService service;
 
     @PostMapping("/add")
-    public Mono<BankUser> addAccount(@RequestBody BankUser account) {
+    public Mono<Bank> addAccount(@RequestBody Bank account) {
         return service.addAccount(account);
     }
 
     @GetMapping("/all")
-    public Flux<BankUser> getAllAccounts() {
+    public Flux<Bank> getAllAccounts() {
         return service.getAllAccounts();
     }
 
     @PutMapping("/{id}")
-    public Mono<BankUser> updateAccount(@PathVariable Integer id, @RequestBody BankUser account) {
+    public Mono<Bank> updateAccount(@PathVariable Integer id, @RequestBody Bank account) {
         return service.updateAccount(id, account);
     }
 

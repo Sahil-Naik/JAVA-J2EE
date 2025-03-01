@@ -1,8 +1,10 @@
 package com.wipro.bank.service;
 
-import com.wipro.bank.model.BankUser;
+import com.wipro.bank.model.Bank;
 import com.wipro.bank.repository.BankREPO;
 
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -10,22 +12,21 @@ import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
+@AllArgsConstructor
 public class BankUserService {
-    private final BankREPO repository;
-    
-    public BankUserService(BankREPO repository) {
-        this.repository = repository;
-    }
+	
+	@Autowired
+    private BankREPO repository;
 
-    public Mono<BankUser> addAccount(BankUser account) {
+    public Mono<Bank> addAccount(Bank account) {
         return repository.save(account);
     }
 
-    public Flux<BankUser> getAllAccounts() {
+    public Flux<Bank> getAllAccounts() {
         return repository.findAll();
     }
 
-    public Mono<BankUser> updateAccount(Integer id, BankUser account) {
+    public Mono<Bank> updateAccount(Integer id, Bank account) {
         return repository.findById(id)
                 .flatMap(existingAccount -> {
                     existingAccount.setHolderName(account.getHolderName());
