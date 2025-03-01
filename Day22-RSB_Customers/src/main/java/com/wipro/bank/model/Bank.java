@@ -10,10 +10,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/*@Data
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Repository*/
+@Repository
 @Entity
 @Table(name = "bank")
 public class Bank {

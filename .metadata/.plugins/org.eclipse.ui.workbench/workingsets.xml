@@ -13,7 +13,6 @@
 <item elementID="=Day22-RSB_Customers" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day21-ProperRestAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-FeignClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-server" type="4"/>
 <item elementID="=Day22-DualAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientCustomerAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -67,6 +66,8 @@
 <workingSet IMemento.internal.id="Day20-29"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740757681659_13" label="Window Working Set" name="Aggregate for window 1740757681659"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740808956059_17" label="Window Working Set" name="Aggregate for window 1740808956059"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740809884021_18" label="Window Working Set" name="Aggregate for window 1740809884021"/>
 <mruList name="Day20-29"/>
 <mruList name="Java Main Sources"/>
 <mruList name="Day01-09"/>
