@@ -3171,3 +3171,435 @@ org.eclipse.debug.core.DebugException: Launch configuration Day24-ConfigServer -
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.065
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:11:59.078
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:11:59.082
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 14:12:00.015
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.645
+!MESSAGE [Info] Document is null for editor: server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.646
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.658
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.658
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.672
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.672
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.683
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.683
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.722
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:20:05.722
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.641
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.643
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.649
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.650
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.657
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:20:11.675
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:21.935
+!MESSAGE Classpath changed for project: Day24-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:39.655
+!MESSAGE Classpath changed for project: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:39.655
+!MESSAGE Classpath changed for project: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:39.656
+!MESSAGE Classpath changed for project: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:40.670
+!MESSAGE Classpath changed for project: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:40.672
+!MESSAGE Classpath changed for project: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:20:52.995
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:21:04.907
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.547
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.547
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.565
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.565
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.585
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.585
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.639
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:21:25.639
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:41.758
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:41.758
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:42.358
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:42.358
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:51.565
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:22:51.565
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:00.867
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:00.867
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:07.547
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:08.130
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-APIGateaway/src/main/resources/application.yaml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.571
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.572
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.572
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.573
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.582
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:13.585
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:27.414
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:23:27.414
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-APIGateaway/pom.xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:23:28.287
+!MESSAGE Classpath changed for project: Day24-APIGateaway
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.021
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.022
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.023
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.023
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.029
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:23:33.030
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:37:52.415
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:37:52.416
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-APIGateaway/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.152
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.157
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.159
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.160
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.164
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:39:26.166
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:49:44.628
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:49:44.681
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 14:49:45.583
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-config:4.2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:4.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:4.2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 14:49:45.583
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:4.2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 14:49:45.583
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:4.2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 14:49:45.597
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:4.2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 14:49:45.597
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 14:49:45.597
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.2.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 14:49:47.000
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:59:09.083
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:59:12.311
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:00:23.590
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:00:23.590
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:02:30.151
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:02:33.394
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:04:56.895
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:04:59.921
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:05:28.888
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:05:28.913
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/server-customer-dev.properties
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:13:59.683
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:14:02.351
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:06.999
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.000
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.068
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.068
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.079
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.080
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/server-customer-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.090
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.091
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.122
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.122
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.136
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.136
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.259
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:07.259
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.492
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.492
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.493
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.493
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.499
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:14:12.501
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:42.448
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:14:42.455
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 15:14:43.756
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:25:08.307
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:25:08.308
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/pom.xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:25:10.850
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:25:11.243
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:25:11.445
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.986
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.987
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.988
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.988
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.992
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:25:14.994
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:30:32.115
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:31:49.220
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:31:49.220
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.788
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.789
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.789
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.790
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.794
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:32:00.796
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access

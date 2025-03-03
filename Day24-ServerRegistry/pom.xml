@@ -44,6 +44,10 @@
 			<artifactId>spring-boot-starter-logging</artifactId> <!-- This is
 			usually included with spring-boot-starter-web -->
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 	</dependencies>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
