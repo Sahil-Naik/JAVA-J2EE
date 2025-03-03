@@ -3903,3 +3903,42 @@ org.eclipse.swt.SWTException: Invalid thread access
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:43:32.133
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:44:08.112
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:44:08.116
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.117
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.123
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 15:44:08.127
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 15:44:10.610
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:48:58.421
+!MESSAGE [Info] Document is null for editor: MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:48:58.421
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/java/com/wipro/controller/MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:48:58.471
+!MESSAGE [Info] Document is null for editor: MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 15:48:58.471
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/java/com/wipro/bank/controller/MessageRestController.java

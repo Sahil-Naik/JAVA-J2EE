@@ -1,4 +1,4 @@
-package com.wipro.bank.controller;
+package com.wipro.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 class MessageRestController {
 
-    @Value("${message:Hello this is from Bank}")
+    @Value("${message:Hello this is from Customer}")
     private String message;
 
     @GetMapping("/message")
