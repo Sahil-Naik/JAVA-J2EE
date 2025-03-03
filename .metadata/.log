@@ -425,3 +425,2749 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:ja
 
 !ENTRY org.eclipse.lsp4e 2 0 2025-03-01 17:26:38.868
 !MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.617
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.617
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.648
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.648
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.666
+!MESSAGE [Info] Document is null for editor: CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.666
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerCustomer/src/main/java/com/wipro/controller/CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.675
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.675
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerCustomer/src/main/java/com/wipro/service/CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.684
+!MESSAGE [Info] Document is null for editor: DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.684
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/java/com/wipro/api/DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.697
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-01 18:40:41.697
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerBank/src/main/java/com/wipro/bank/controller/BankController.java
+!SESSION 2025-03-02 10:15:40.709 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 10:15:44.080
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 10:15:46.985
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 10:15:47.430
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 10:15:47.430
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 10:15:47.699
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 10:15:47.699
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 10:15:54.302
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740890754301
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:54.302
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 10:15:54.309
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3456
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:15:56.973
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:15:56.994
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-02 10:15:57.216
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:15:57.350
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.643
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.644
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.646
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.730
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.731
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.732
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.733
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.733
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.757
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.767
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.777
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.788
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.803
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.836
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.837
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.858
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.860
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.888
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.920
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.944
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.944
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:57.975
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.011
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.040
+!MESSAGE Boot project ADDED: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.076
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.130
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.142
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.163
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.163
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.163
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.164
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.197
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.198
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.243
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 10:15:58.243
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 10:15:59.977
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:18:31.182
+!MESSAGE [Info] Document is null for editor: BankREPO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:18:31.182
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/repository/BankREPO.java
+
+!ENTRY org.eclipse.jface 2 0 2025-03-02 10:23:42.694
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-02 10:23:42.694
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-02 10:23:42.694
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.483
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.483
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerBank/src/main/java/com/wipro/bank/controller/BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.494
+!MESSAGE [Info] Document is null for editor: BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.494
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.566
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:29:47.567
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:33:24.644
+!MESSAGE [Info] Document is null for editor: APIResponseDTO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:33:24.645
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-FeignClientCustomerAPI/src/main/java/com/wipro/customer/DTO/APIResponseDTO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:33:24.664
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 10:33:24.665
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-FeignClientCustomerAPI/src/main/java/com/wipro/customer/service/CustomerService.java
+!SESSION 2025-03-02 13:03:22.432 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 13:03:27.204
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 13:03:31.404
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 13:03:31.937
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 13:03:31.938
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 13:03:32.239
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 13:03:32.239
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 13:03:39.282
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740900819281
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:39.282
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 13:03:39.289
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2128
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:03:44.266
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:03:44.289
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.437
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.442
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-02 13:03:44.442
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.443
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.443
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.444
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.445
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.446
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.446
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.447
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.448
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.449
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.449
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.450
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.451
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.452
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.453
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.454
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.455
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.456
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.457
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.457
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.458
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.458
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.459
+!MESSAGE Boot project ADDED: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.460
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.461
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.463
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.463
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.465
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.465
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.466
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.467
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.467
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.468
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 13:03:44.470
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:03:44.702
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 13:03:46.660
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.jface 2 0 2025-03-02 13:03:58.989
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-02 13:03:58.989
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-02 13:03:58.989
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-02 13:04:04.563
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:151)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 13:04:10.477
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-02 13:04:10.478
+!MESSAGE Cannot invoke "String.length()" because "typeSignature" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSignature" is null
+	at org.eclipse.jdt.internal.compiler.parser.TypeConverter.createTypeReference(TypeConverter.java:129)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.createTypeReference(BinaryTypeConverter.java:348)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:200)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:312)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.buildTypeDeclaration(BinaryTypeConverter.java:99)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1589)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:319)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:261)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.resolveFQName(JavaData.java:530)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeDescriptorData(JavaData.java:296)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeData(JavaData.java:304)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createTypeData(JavaData.java:277)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:69)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:521)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1812)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:25.683
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:25.685
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.016
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.053
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.220
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.223
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.349
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.351
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.694
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:27.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:28.600
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:28.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:29.016
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:29.018
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:29.395
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:30.503
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.3.1.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.3.1.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:30.503
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:31.151
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:31.382
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-02 13:04:31.407
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:07:57.163
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:07:57.163
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-FeignClientCustomerAPI/src/main/java/com/wipro/customer/service/CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:07:57.205
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:07:57.206
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:08:31.836
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:08:31.840
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 13:08:32.747
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-02 13:10:40.029
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.175
+!MESSAGE [Info] Document is null for editor: BankUserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.175
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day21-ProperRestAPI/src/main/java/com/wipro/bank/repository/BankUserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.200
+!MESSAGE [Info] Document is null for editor: BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.201
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day21-ProperRestAPI/src/main/java/com/wipro/bank/BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.211
+!MESSAGE [Info] Document is null for editor: GlobalExceptionHandler.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.212
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day21-ProperRestAPI/src/main/java/com/wipro/bank/exceptions/GlobalExceptionHandler.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.223
+!MESSAGE [Info] Document is null for editor: BankUser.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.223
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day21-ProperRestAPI/src/main/java/com/wipro/bank/model/BankUser.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.309
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:15:58.309
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day21-ProperRestAPI/src/main/java/com/wipro/bank/controller/BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.856
+!MESSAGE [Info] Document is null for editor: CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.857
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-FeignClientCustomerAPI/src/main/java/com/wipro/customer/controller/CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.872
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.873
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-WebClientCustomerAPI/src/main/java/com/wipro/customer/service/CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.888
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 13:18:14.889
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-FeignClientCustomerAPI/src/main/java/com/wipro/customer/service/CustomerService.java
+!SESSION 2025-03-02 15:50:37.406 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 15:50:40.867
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-02 15:50:44.877
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 15:50:45.308
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 15:50:45.308
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-02 15:50:45.568
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-02 15:50:45.569
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 15:50:52.475
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740910852474
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:52.475
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-02 15:50:52.482
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4516
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:50:55.567
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:50:55.598
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-02 15:50:55.756
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:50:55.973
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.481
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.483
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.483
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.521
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.538
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.539
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.542
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.545
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.569
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.587
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.601
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.613
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.633
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.633
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.633
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.656
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.656
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.710
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.712
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.712
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.713
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.786
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.821
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:56.822
+!MESSAGE Boot project ADDED: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.487
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.487
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.488
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.488
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.489
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.490
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.490
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.491
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.493
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.494
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-02 15:50:57.495
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 15:50:58.540
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:51:13.636
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:51:13.637
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-WebClientCustomerAPI/src/main/java/com/wipro/customer/service/CustomerService.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 15:52:42.162
+!MESSAGE [Info]	[certificates] Removed 16 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-02 15:53:09.385
+!MESSAGE [Info]	[auth] Invalid copilot token: missing token: 403 
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.086
+!MESSAGE [Info] Document is null for editor: BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.087
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.098
+!MESSAGE [Info] Document is null for editor: BankUserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.099
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/service/BankUserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.147
+!MESSAGE [Info] Document is null for editor: BankREPO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-02 15:54:02.148
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/repository/BankREPO.java
+!SESSION 2025-03-03 10:00:04.272 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 10:00:09.154
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 10:00:13.180
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 10:00:13.711
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 10:00:13.711
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 10:00:13.991
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 10:00:13.991
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 10:00:21.669
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740976221668
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:21.670
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 10:00:21.676
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14904
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:00:24.085
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-03 10:00:24.122
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:00:24.142
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:00:24.611
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:24.939
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:24.940
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:24.940
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.908
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.909
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.910
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.910
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.911
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.911
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.911
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.911
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.912
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.913
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.913
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.913
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.913
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.914
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.914
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.914
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.914
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.914
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.915
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.915
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.915
+!MESSAGE Boot project ADDED: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.915
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.916
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.917
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.918
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.919
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.919
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.920
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.920
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.921
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.921
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 10:00:26.921
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-03-03 10:00:27.167
+!MESSAGE Error occurred while deleting: /.JETEmitters/bin/org
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:177)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/.JETEmitters/bin/org'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:416)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:177)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class.
+java.nio.file.FileSystemException: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:326)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1602)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-03 10:00:27.168
+!MESSAGE Could not delete '/.JETEmitters/bin/org'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:416)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:177)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class.
+java.nio.file.FileSystemException: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:326)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1602)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 6 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 7 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 8 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 10 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 11 org.eclipse.core.filesystem 4 273 2025-03-03 10:00:27.168
+!MESSAGE Could not delete: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class.
+!STACK 0
+java.nio.file.FileSystemException: F:\JAVA-J2EE\.JETEmitters\bin\org\eclipse\jst\j2ee\internal\web\operations\ServletTemplate_.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:326)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1602)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.509
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.517
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.518
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.520
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.528
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 10:00:30.534
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 10:00:30.749
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.jface 2 0 2025-03-03 10:00:31.605
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-03 10:00:31.605
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:32.845
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:32.851
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:34.814
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:35.242
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 10:00:35.338
+!MESSAGE executing callback sts4.classpath.ZjrJIodz FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-03 10:00:35.339
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.070
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.072
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.245
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.248
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.540
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:36.543
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:37.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:37.511
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:38.046
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:38.049
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:54.608
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:55.720
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.3.1.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.3.1.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:55.720
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:56.263
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:56.321
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 10:00:56.337
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:06:51.564
+!MESSAGE [Info] Document is null for editor: BankREPO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:06:51.565
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day22-RSB_Customers/src/main/java/com/wipro/bank/repository/BankREPO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:13:15.198
+!MESSAGE [Info] Document is null for editor: APIDemo.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:13:15.199
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/java/com/wipro/APIDemo.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:14:07.921
+!MESSAGE [Info] Document is null for editor: DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:14:07.922
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/java/com/wipro/api/DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:15:18.798
+!MESSAGE [Info] Document is null for editor: DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:15:18.798
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/java/com/wipro/api/DemoController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:15:20.943
+!MESSAGE [Info] Document is null for editor: APIDemo.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 10:15:20.943
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/java/com/wipro/APIDemo.java
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:37.950
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:4.1.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:37.950
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:37.950
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.6
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:38.228
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:38.229
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:38.229
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.1.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:56:38.784
+!MESSAGE Classpath changed for project: Day23-APIGateawayDemo
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:41.039
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:41.039
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:41.039
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.1.5
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:41.366
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:41.366
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:41.366
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.5
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:42.422
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:42.422
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:42.422
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.1.5
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:56:42.687
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:56:42.688
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:56:42.688
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.1.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:56:45.812
+!MESSAGE Classpath changed for project: Day23-APIGateawayDemo
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:22.858
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:22.859
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:22.908
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:22.909
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:23.084
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 11:57:23.084
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-03 11:57:37.119
+!MESSAGE Could not download javadoc for org.apache.sshd:sshd-osgi:2.12.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.sshd:sshd-osgi:jar:javadoc:2.12.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.sshd:sshd-osgi:jar:javadoc:2.12.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-03 11:57:37.119
+!MESSAGE Could not resolve artifact org.apache.sshd:sshd-osgi:jar:javadoc:2.12.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-03 11:57:37.119
+!MESSAGE Missing org.apache.sshd:sshd-osgi:jar:javadoc:2.12.1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:57:37.253
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:57:37.253
+!MESSAGE Boot project ADDED: Day24-ConfigServer
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.280
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.281
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.281
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.282
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.288
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 11:57:37.291
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:57:40.584
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 11:57:42.789
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-03 11:58:03.946
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2140)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.157
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.158
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.159
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.159
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.165
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:04:07.170
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:05:21.017
+!MESSAGE [Info] Document is null for editor: PageController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:05:21.017
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerEmployee/src/main/java/com/wipro/employees/controller/PageController.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.631
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.632
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.632
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.632
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.637
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:06:21.640
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:09:17.416
+!MESSAGE Classpath changed for project: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:09:19.827
+!MESSAGE Classpath changed for project: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:09:47.361
+!MESSAGE Classpath changed for project: Day23-APIGateawayDemo
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.896
+!MESSAGE [Info] Document is null for editor: Day24ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.897
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/java/com/wipro/Day24ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.910
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.910
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerEmployee/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.922
+!MESSAGE [Info] Document is null for editor: EmployeeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.923
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerEmployee/src/main/java/com/wipro/employees/controller/EmployeeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.996
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:22.996
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/pom.xml
+!SESSION 2025-03-03 12:10:40.950 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 12:10:43.728
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 12:10:45.568
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 12:10:45.854
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 12:10:45.854
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 12:10:46.151
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 12:10:46.151
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 12:10:51.810
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740984051809
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:51.810
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 12:10:51.819
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4976
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.827
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.828
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.829
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.830
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.839
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:10:51.844
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:54.139
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-03 12:10:54.204
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:54.209
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:10:55.320
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.741
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.742
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.743
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.776
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.777
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.777
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.778
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.780
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.980
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.982
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.983
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.985
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.986
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:55.994
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.010
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.043
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.094
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.112
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.126
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.304
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.308
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.321
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.336
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.390
+!MESSAGE Boot project ADDED: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.424
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.461
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.521
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.529
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.545
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.592
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.720
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.742
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.766
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.781
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.798
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:10:56.813
+!MESSAGE Boot project ADDED: Day24-ConfigServer
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 12:11:00.928
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.jface 2 0 2025-03-03 12:11:47.867
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-03 12:11:47.867
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.203
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.204
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerEmployee/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.218
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.218
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.251
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.251
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.374
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:15:23.374
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.565
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.565
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.566
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.566
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.573
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:15:34.576
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:14.057
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:14.058
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:14.166
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:14.166
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.properties
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:18:59.676
+!MESSAGE Classpath changed for project: Day24-APIGateaway
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:59.788
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:18:59.792
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.798
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.798
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.799
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.799
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.804
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:18:59.807
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:00.057
+!MESSAGE Classpath changed for project: Day24-APIGateaway
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 12:19:01.789
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:03.879
+!MESSAGE Classpath changed for project: Day24-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:03.879
+!MESSAGE Boot project ADDED: Day24-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:19.312
+!MESSAGE Classpath changed for project: Day24-EurekaServer
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.336
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.337
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.337
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.338
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.342
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:19.345
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:19.557
+!MESSAGE Classpath changed for project: Day24-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:22.141
+!MESSAGE Classpath changed for project: Day24-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:22.142
+!MESSAGE Boot project ADDED: Day24-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:29.332
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:29.554
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:37.441
+!MESSAGE Classpath changed for project: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:37.442
+!MESSAGE Boot project ADDED: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:41.888
+!MESSAGE Classpath changed for project: Day24-ServerCustomer
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.972
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.972
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.973
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.973
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.978
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:19:41.981
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:42.122
+!MESSAGE Classpath changed for project: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.303
+!MESSAGE Classpath changed for project: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.304
+!MESSAGE Classpath changed for project: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.304
+!MESSAGE Classpath changed for project: Day22-RSB_Customers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.304
+!MESSAGE Classpath changed for project: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.778
+!MESSAGE Classpath changed for project: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:19:49.778
+!MESSAGE Boot project ADDED: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:20:00.878
+!MESSAGE Classpath changed for project: Day24-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:20:00.882
+!MESSAGE Boot project REMOVED: Day24-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:20:00.882
+!MESSAGE Classpath changed for project: Day24-ServerRegistry
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.893
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.894
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.894
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.895
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.899
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:20:00.902
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:20:03.634
+!MESSAGE Classpath changed for project: Day24-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:20:03.636
+!MESSAGE Boot project ADDED: Day24-ServerRegistry
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:20:52.160
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:20:52.163
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 12:20:53.051
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.392
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.393
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.394
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.394
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.402
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:21:52.404
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:30.649
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:30.649
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:30.757
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:30.757
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:42.830
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:26:42.830
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:09.977
+!MESSAGE [Info] Document is null for editor: application-8083.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:09.978
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application-8083.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:10.923
+!MESSAGE [Info] Document is null for editor: application-8084.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:10.923
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application-8084.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:15.845
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:15.845
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:35.324
+!MESSAGE [Info] Document is null for editor: application-8081.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:35.324
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application-8081.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:51.062
+!MESSAGE [Info] Document is null for editor: application-8082.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:51.063
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application-8082.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:59.453
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:32:59.454
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:33:07.276
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:33:07.276
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:34:22.043
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:34:22.046
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 12:34:22.963
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:34:33.133
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:34:33.134
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:35:26.886
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:35:26.886
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/server-bank.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.278
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.278
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.279
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.279
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.283
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:36:01.286
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-03 12:36:01.574
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:105)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.ui.internal.genericeditor.markers.MarkerInformationControl.setInput(MarkerInformationControl.java:107)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1151)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:884)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:237)
+	at org.eclipse.jface.text.TextViewerHoverManager.lambda$3(TextViewerHoverManager.java:227)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:36:21.494
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:25.530
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:25.531
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:26.431
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:26.431
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:47.481
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:50.249
+!MESSAGE [Info] Document is null for editor: application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:37:50.250
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/resources/application.yml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:39:15.248
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:39:15.248
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.576
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.577
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.578
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.579
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.584
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:39:40.588
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:40:03.388
+!MESSAGE [Info] Document is null for editor: App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:40:03.389
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/java/com/wipro/App.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.600
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.601
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.601
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.602
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.606
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:10.609
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.957
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.957
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.958
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.958
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.963
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:40:51.965
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:43:06.379
+!MESSAGE [Info] Document is null for editor: EurekaServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:43:06.379
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerRegistry/src/main/java/com/wipro/eureka/EurekaServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:43:21.491
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:43:21.492
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.144
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.144
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.145
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.145
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.149
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:44:33.151
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:50:13.085
+!MESSAGE [Info] Document is null for editor: application-8081.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:50:13.085
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-ServerBank/src/main/resources/application-8081.properties
+
+!ENTRY Activator 4 0 2025-03-03 12:51:06.720
+!MESSAGE DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:390)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchConfigurationDelegate.isHiddenFromBootDash(BootLaunchConfigurationDelegate.java:285)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker.isRelevant(LaunchConfigurationTracker.java:182)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker.getRelevantConfs(LaunchConfigurationTracker.java:169)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker$2.run(LaunchConfigurationTracker.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-03 12:51:06.720
+!MESSAGE Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2025-03-03 12:51:06.721
+!MESSAGE DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:322)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:307)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker$2.run(LaunchConfigurationTracker.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-03 12:51:06.721
+!MESSAGE Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.728
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.728
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.730
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.730
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.735
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:51:06.737
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:51:06.847
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 12:51:37.510
+!MESSAGE Classpath changed for project: Day24-ConfigServer
+
+!ENTRY Activator 4 0 2025-03-03 12:51:43.138
+!MESSAGE DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:390)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchConfigurationDelegate.getEnableJmx(BootLaunchConfigurationDelegate.java:426)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:195)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-03 12:51:43.138
+!MESSAGE Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2025-03-03 12:51:43.139
+!MESSAGE DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:322)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:307)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:196)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-03 12:51:43.139
+!MESSAGE Launch configuration Day24-ConfigServer - Day24ConfigServerApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day24-ConfigServer%20-%20Day24ConfigServerApplication.launch does not exist.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:52:26.931
+!MESSAGE [Info] Document is null for editor: Day24ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:52:26.931
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:52:28.506
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:52:28.507
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.913
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.914
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.914
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.914
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.919
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:52:58.921
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-03 12:56:11.061
+!MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:56:42.135
+!MESSAGE [Info] Document is null for editor: ConfigServerApplicationTests.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:56:42.135
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/test/java/com/wipro/ConfigServerApplicationTests.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:56:47.563
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:56:47.564
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.093
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.094
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.094
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.095
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.100
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:57:05.102
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:01.178
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:01.178
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-APIGateaway/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:11.005
+!MESSAGE [Info] Document is null for editor: application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:11.005
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.yaml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:11.998
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 12:58:11.998
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day23-APIGateawayDemo/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.600
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.600
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.601
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.602
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.607
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 12:58:23.609
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:03:35.684
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:03:39.687
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer-dev.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.817
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.819
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.821
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.821
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.826
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:03:46.829
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:26.954
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:26.954
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-customer-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:28.226
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:28.227
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank-dev.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.588
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.588
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.599
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.599
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.608
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.609
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ServerCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.687
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:07:31.687
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-APIGateaway/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.861
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.862
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.862
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.863
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.867
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:07:41.869
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:08:56.789
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:08:56.793
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-03 14:08:57.736
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:09:37.299
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:09:37.301
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-03 14:09:46.005
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day24-ConfigServer/src/main/resources/server-bank.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.053
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.054
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.054
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.055
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.062
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 14:09:55.065
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
