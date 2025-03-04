@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: REFRESH-SERVER
+  cloud:
+    config:
+      uri: http://localhost:8888 # URL of your Spring Cloud Config server
+    bus:
+      enabled: true
+  rabbitmq:
+    host: localhost # RabbitMQ host
+    port: 5672
