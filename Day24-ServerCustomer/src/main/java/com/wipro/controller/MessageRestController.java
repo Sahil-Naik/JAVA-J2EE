@@ -7,13 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RefreshScope
 @RestController
-class MessageRestController {
-
-    @Value("${message:Hello this is from Customer}")
-    private String message;
-
-    @GetMapping("/message")
-    String getMessage() {
-        return this.message;
-    }
+public class MessageRestController {
+	 
+	@Value("${spring.boot.message}")
+	private String message;
+	
+	@GetMapping("/message")
+	public String message()
+	{
+		return message;
+	}
+	
 }
