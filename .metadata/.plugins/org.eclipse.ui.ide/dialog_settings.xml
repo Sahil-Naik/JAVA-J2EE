@@ -65,6 +65,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day25-ServerRegistry"/>
+			<item value="F:\JAVA-J2EE\Day25-ServerCustomer"/>
+			<item value="F:\JAVA-J2EE\Day25-ServerBank"/>
+			<item value="F:\JAVA-J2EE\Day25-ConfigServer"/>
+			<item value="F:\JAVA-J2EE\Day25-APIGateaway"/>
 			<item value="F:\JAVA-J2EE\Day24-ServerCustomer"/>
 			<item value="F:\JAVA-J2EE\Day24-ServerBank"/>
 			<item value="F:\JAVA-J2EE\Day24-EurekaServer"/>

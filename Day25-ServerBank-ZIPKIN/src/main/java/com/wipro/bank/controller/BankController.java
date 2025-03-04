@@ -3,6 +3,7 @@ package com.wipro.bank.controller;
 import com.wipro.bank.model.BankUser;
 import com.wipro.bank.service.BankUserService;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import jakarta.validation.Valid;
 import java.util.List;
 import org.springframework.data.domain.Page;
@@ -18,6 +19,15 @@ public class BankController {
 	@Autowired
 	private BankUserService bankUserService;
 	
+	@GetMapping("/details")
+    @CircuitBreaker(name = "BankUserService", fallbackMethod = "fallbackGetBankDetails")
+    public String getBankDetails() {
+        return BankUserService.getBankDetails();
+    }
+
+    public String fallbackGetBankDetails(Exception e) {
+        return "Fallback: Bank service is currently unavailable.";
+    }
 	@PostMapping("/add")
 	public ResponseEntity<BankUser> addBankUser(@Valid @RequestBody BankUser newBankUser){
 		BankUser BU = new BankUser();

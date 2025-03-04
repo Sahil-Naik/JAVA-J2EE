@@ -2,6 +2,9 @@ package com.wipro.bank.service;
 
 import com.wipro.bank.model.BankUser;
 import com.wipro.bank.repository.BankUserRepository;
+
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
 import com.wipro.bank.exceptions.*;
 
 import org.springframework.data.domain.Page;
@@ -10,9 +13,13 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+
 import java.util.List;
 import java.util.Optional;
+import java.util.Random;
 
+@RefreshScope
 @Service
 public class BankUserService {
 	@Autowired
@@ -70,4 +77,13 @@ public class BankUserService {
 	    // If PIN is correct, proceed with deletion
 	    bankUserRepository.delete(existingBankuser);
 	}
+	
+    public static String getBankDetails() {
+        // Simulating a failure or delay
+        if (new Random().nextBoolean()) {
+            throw new RuntimeException("Bank service is down");
+        }
+        return "Bank details fetched successfully!";
+    }
+	
 }

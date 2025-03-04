@@ -5,6 +5,8 @@ import com.wipro.DTO.CustomerDTO;
 import com.wipro.model.Customer;
 import com.wipro.repository.CustomerRepository;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -12,9 +14,13 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+
 import java.util.List;
 import java.util.Optional;
+import java.util.Random;
 
+@RefreshScope
 @Service
 public class CustomerService {
 	
@@ -69,4 +75,14 @@ public class CustomerService {
 	public void deleteCustomer(int id) {
 		customerRepository.deleteById(id);
 	}
+	
+    public static String getCustomerDetails() {
+        // Simulating a failure or delay
+        if (new Random().nextBoolean()) {
+            throw new RuntimeException("Customer service is down");
+        }
+        return "Customer details fetched successfully!";
+    }
+	
+	
 }

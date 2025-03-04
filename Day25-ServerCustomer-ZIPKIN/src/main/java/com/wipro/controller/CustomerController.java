@@ -4,6 +4,8 @@ import com.wipro.DTO.CustomerDTO;
 import com.wipro.model.Customer;
 import com.wipro.service.CustomerService;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
 import org.springframework.data.domain.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,6 +20,12 @@ public class CustomerController {
 	
 	@Autowired
 	private CustomerService customerService;
+	
+	@GetMapping("/details")
+    @CircuitBreaker(name = "CustomerService", fallbackMethod = "fallbackGetCustomerDetails")
+    public String getBankDetails() {
+        return CustomerService.getCustomerDetails();
+    }
 	
 	@PostMapping("/add")
 	public ResponseEntity<Customer> addCustomer(@RequestBody Customer newCustomer) {
