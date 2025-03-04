@@ -28,6 +28,7 @@
 <item elementID="=Day24-ServerRegistry" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-EurekaServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day25-WebCrawler" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756713078_8" label="Day10-19" name="Day10-19">
 <item elementID="=Day17-HiberORM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
