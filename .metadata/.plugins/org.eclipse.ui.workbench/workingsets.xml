@@ -10,7 +10,7 @@
 <item elementID="=Day24-APIGateaway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-RESTBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-SpringBootSwaggerUI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Day22-RSB_Customers" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day22-RSB_BankUser" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-DualAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-ServerBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerA" type="4"/>
@@ -34,6 +34,11 @@
 <item elementID="=Day25-ServerBank-ZIPKIN" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day25-ServerCustomer-ZIPKIN" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day25-ServerRegistry-ZIPKIN" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day26-APIGateaway-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day26-ConfigServer-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day26-ServerBank-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day26-ServerCustomer-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day26-ServerRegistry-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756713078_8" label="Day10-19" name="Day10-19">
 <item elementID="=Day17-HiberORM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
