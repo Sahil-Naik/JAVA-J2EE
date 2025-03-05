@@ -22,8 +22,8 @@ public class CustomerController {
 	private CustomerService customerService;
 	
 	@GetMapping("/details")
-    @CircuitBreaker(name = "CustomerService", fallbackMethod = "fallbackGetCustomerDetails")
-    public String getBankDetails() {
+    @CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "fallbackGetCustomerDetails")
+    public String getCustomerDetails() {
         return CustomerService.getCustomerDetails();
     }
 	

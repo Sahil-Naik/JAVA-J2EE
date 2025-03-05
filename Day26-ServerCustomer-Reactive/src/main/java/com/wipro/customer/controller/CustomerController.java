@@ -24,10 +24,14 @@ public class CustomerController {
 	private CustomerService customerService;
 	
 	@GetMapping("/details")
-    @CircuitBreaker(name = "CustomerService", fallbackMethod = "fallbackGetCustomerDetails")
+    @CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "fallbackGetCustomerDetails")
     public String getCustomerDetails() {
         return CustomerService.getCustomerDetails();
     }
+	
+	public String fallbackGetCustomerDetails(Exception e) {
+		return "Fallback: Customer service is currently unavailable.";
+	}
 	
 	@PostMapping("/add")
 	public ResponseEntity<Mono<Customers>> addCustomer(@RequestBody Customers newCustomer) {
