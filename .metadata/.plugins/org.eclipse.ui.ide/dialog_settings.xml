@@ -65,6 +65,18 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerCustomer"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerBank"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-WebClientCustomerAPI"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-WebClientBankAPI"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerRegistry"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ConfigServer"/>
+			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-APIGateaway"/>
+			<item value="F:\JAVA-J2EE\Day26-ServerCustomer-CircuitBreaker"/>
+			<item value="F:\JAVA-J2EE\Day26-ServerBank-CircuitBreaker"/>
+			<item value="F:\JAVA-J2EE\Day26-ServerRegistry-CircuitBreaker"/>
+			<item value="F:\JAVA-J2EE\Day26-ConfigServer-CircuitBreaker"/>
+			<item value="F:\JAVA-J2EE\Day26-APIGateaway-CircuitBreaker"/>
 			<item value="F:\JAVA-J2EE\Day25-ServerRegistry"/>
 			<item value="F:\JAVA-J2EE\Day25-ServerCustomer"/>
 			<item value="F:\JAVA-J2EE\Day25-ServerBank"/>
@@ -73,14 +85,6 @@
 			<item value="F:\JAVA-J2EE\Day24-ServerCustomer"/>
 			<item value="F:\JAVA-J2EE\Day24-ServerBank"/>
 			<item value="F:\JAVA-J2EE\Day24-EurekaServer"/>
-			<item value="F:\JAVA-J2EE\Day24-APIGateaway"/>
-			<item value="F:\JAVA-J2EE\Day23-ServerEmployee"/>
-			<item value="F:\JAVA-J2EE\Day22-FeignClientCustomerAPI"/>
-			<item value="F:\JAVA-J2EE\Day22-FeignClientBankAPI"/>
-			<item value="F:\JAVA-J2EE\Day22-WebClientCustomerAPI"/>
-			<item value="F:\JAVA-J2EE\Day22-WebClientBankAPI"/>
-			<item value="F:\JAVA-J2EE\Day22-DualAPI"/>
-			<item value="F:\JAVA-J2EE\Day22-SpringBootSwaggerUI"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

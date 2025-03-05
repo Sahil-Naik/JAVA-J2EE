@@ -19,7 +19,7 @@ public class Customer {
 	private String customerCity;
 	
 	@NotNull(message = "Customer bill cannot be null")
-	@Min(value = 0, message = "Bill must be at lease Rs. 0")
+	@Min(value = 0, message = "Bill must be at least Rs. 0")
 	@Column(name = "customer_bill", updatable = false, nullable = false)
 	private int customerBill;
 
