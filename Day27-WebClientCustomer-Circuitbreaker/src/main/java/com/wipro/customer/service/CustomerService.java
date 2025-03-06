@@ -4,6 +4,7 @@ import com.wipro.customer.exception.ResourceNotFoundException;
 import com.wipro.customer.DTO.APIResponseDTO;
 import com.wipro.customer.DTO.BankDTO;
 import com.wipro.customer.DTO.CustomerDTO;
+import com.wipro.customer.DTO.VendorDTO;
 import com.wipro.customer.model.Customer;
 import com.wipro.customer.repository.CustomerRepository;
 
@@ -19,12 +20,14 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@RefreshScope
 public class CustomerService {
 
 	@Autowired
@@ -56,51 +59,63 @@ public class CustomerService {
 	@CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "fallbackGetCustomerByBankId")
 	@Retry(name = "${spring.application.name}", fallbackMethod = "fallbackGetCustomerByBankId")
 	public APIResponseDTO getCustomerByBankId(String bankId) {
-		Customer cust = customerRepository.findByBankId(bankId)
-				.orElseThrow(() -> new ResourceNotFoundException("Customer with Account-ID " + bankId + " not found."));
+	    Customer cust = customerRepository.findByBankId(bankId)
+	            .orElseThrow(() -> new ResourceNotFoundException("Customer with Account-ID " + bankId + " not found."));
 
-		// Create a WebClient instance (you can also inject it as a bean)
-		WebClient webClient = WebClient.create("http://localhost:6061");
+	    WebClient webClient = WebClient.create();
 
-		// Use WebClient to fetch the BankDTO
-		Mono<BankDTO> bankDTOMono = webClient.get().uri("/bank/{customerBankId}", cust.getCustomerBankId()).retrieve()
-				.bodyToMono(BankDTO.class);
+	    // Fetch Bank details
+	    Mono<BankDTO> bankDTOMono = webClient.get()
+	            .uri("http://localhost:6061/bank/{customerBankId}", cust.getCustomerBankId())
+	            .retrieve()
+	            .bodyToMono(BankDTO.class);
 
-		// Block to get the result (consider using subscribe for non-blocking)
-		BankDTO bankDTO = bankDTOMono.block();
+	    BankDTO bankDTO = bankDTOMono.block(); // Blocking call (can be optimized)
 
-		// Convert Customer to CustomerDTO
-		CustomerDTO custDTO = mapper.map(cust, CustomerDTO.class);
+	    // Fetch Vendor details using vendor_name from BankDTO
+	    Mono<VendorDTO> vendorDTOMono = webClient.get()
+	            .uri("http://localhost:6062/vendor/{vendorAbbri}", bankDTO.getVendor_name()) // vendor_name is used as abbri
+	            .retrieve()
+	            .bodyToMono(VendorDTO.class);
 
-		// Create and populate APIResponseDTO
-		APIResponseDTO apiResponseDto = new APIResponseDTO();
-		apiResponseDto.setBankDTO(bankDTO);
-		apiResponseDto.setCustomerDTO(custDTO);
+	    VendorDTO vendorDTO = vendorDTOMono.block(); // Blocking call
 
-		return apiResponseDto;
+	    // Convert Customer to DTO
+	    CustomerDTO custDTO = mapper.map(cust, CustomerDTO.class);
+
+	    // Populate APIResponseDTO
+	    APIResponseDTO apiResponseDto = new APIResponseDTO();
+	    apiResponseDto.setCustomerDTO(custDTO);
+	    apiResponseDto.setBankDTO(bankDTO);
+	    apiResponseDto.setVendorDTO(vendorDTO); // Include Vendor data
+
+	    return apiResponseDto;
 	}
 
 	// Fallback method
 	public APIResponseDTO fallbackGetCustomerByBankId(String bankId, Throwable throwable) {
-		// Create a default BankDTO with default values
-		BankDTO defaultBankDTO = new BankDTO();
-		defaultBankDTO.setAccountId(0);
-		defaultBankDTO.setHolder_name("Unknown");
-		defaultBankDTO.setHolder_phone("N/A");
-		defaultBankDTO.setBalance(0.0);
-		defaultBankDTO.setVendor_name("Unknown");
+	    BankDTO defaultBankDTO = new BankDTO();
+	    defaultBankDTO.setAccountId(0);
+	    defaultBankDTO.setHolder_name("Unknown");
+	    defaultBankDTO.setHolder_phone("N/A");
+	    defaultBankDTO.setBalance(0.0);
+	    defaultBankDTO.setVendor_name("Unknown");
 
-		// Create a default CustomerDTO (if needed)
-		CustomerDTO defaultCustDTO = new CustomerDTO();
-		// Populate defaultCustDTO with default values if necessary
+	    CustomerDTO defaultCustDTO = new CustomerDTO();
 
-		// Create and populate APIResponseDTO with default values
-		APIResponseDTO apiResponseDto = new APIResponseDTO();
-		apiResponseDto.setBankDTO(defaultBankDTO);
-		apiResponseDto.setCustomerDTO(defaultCustDTO);
+	    VendorDTO defaultVendorDTO = new VendorDTO();
+	    defaultVendorDTO.setVendorId(0);
+	    defaultVendorDTO.setVendorName("Unknown");
+	    defaultVendorDTO.setVendorAbbri("N/A");
 
-		return apiResponseDto;
+	    APIResponseDTO apiResponseDto = new APIResponseDTO();
+	    apiResponseDto.setBankDTO(defaultBankDTO);
+	    apiResponseDto.setCustomerDTO(defaultCustDTO);
+	    apiResponseDto.setVendorDTO(defaultVendorDTO);
+
+	    return apiResponseDto;
 	}
+
 
 	public List<Customer> getCustomersByBillGreaterThan(double amount) {
 		return customerRepository.findCustomersByBillGreaterThan(amount);
