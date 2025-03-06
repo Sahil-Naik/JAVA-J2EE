@@ -20,6 +20,7 @@
 <item elementID="=Day26-ConfigServer-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-DualAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-ServerBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-WebClientVendor-Circuitbreaker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day26-ServerBank-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Day23-ServerA" type="4"/>
 <item elementID="=Day25-APIGateaway-ZIPKIN" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -30,7 +31,9 @@
 <item elementID="=Day27-APIGateaway-Circuitbreaker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-ServerEmployee" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day24-ServerBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-ConfigServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day24-ServerCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-ReactiveSpringBoot_demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day21-RestDTO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day27-WebClientBank-Circuitbreaker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -40,11 +43,14 @@
 <item elementID="=Day22-FeignClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day25-ConfigServer-ZIPKIN" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientCustomerAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-ServerRegistry" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-ServerCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day26-APIGateaway-Reactive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day22-WebClientBankAPI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day23-EurekaServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Day27-WebClientVendor-Circuitbreaker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day27-Docker-APIGateaway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756713078_8" label="Day10-19" name="Day10-19">
 <item elementID="=Day17-HiberORM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

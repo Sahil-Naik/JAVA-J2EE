@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  server-registry:
+    build: ./Day27-Docker-ServerRegistry
+    container_name: server-registry
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  mysql_banks:
+    image: mysql:8
+    container_name: mysql_banks
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # Set the root password
+      MYSQL_DATABASE: banks_db
+      MYSQL_USER: bank_user  # Use a different username
+      MYSQL_PASSWORD: bank_password  # Use a different password
+    ports:
+      - "3306:3306"
+
+  mysql_customers:
+    image: mysql:8
+    container_name: mysql_customers
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # Set the root password
+      MYSQL_DATABASE: customers_db
+      MYSQL_USER: customer_user  # Use a different username
+      MYSQL_PASSWORD: customer_password  # Use a different password
+    ports:
+      - "3307:3306"  # Change the host port to avoid conflict
+
+  mysql_vendors:
+    image: mysql:8
+    container_name: mysql_vendors
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # Set the root password
+      MYSQL_DATABASE: vendors_db
+      MYSQL_USER: vendor_user  # Use a different username
+      MYSQL_PASSWORD: vendor_password  # Use a different password
+    ports:
+      - "3308:3306"  # Change the host port to avoid conflict
+
+  config-server:
+    build: ./Day27-Docker-ConfigServer
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    depends_on:
+      - server-registry
+    networks:
+      - my-network
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://server-registry:8761/eureka/
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/actuator/health"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+
+  api-gateway:
+    build: ./Day27-Docker-APIGateaway
+    container_name: api-gateway
+    ports:
+      - "9090:9090"
+    networks:
+      - my-network
+    environment:
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://config-server:8888/
+    depends_on:
+      config-server:
+        condition: service_healthy
+
+  server-customer:
+    build: ./Day27-Docker-WebClientCustomer
+    container_name: server-customer
+    ports:
+      - "6060:6060"
+    depends_on:
+      - api-gateway
+    networks:
+      - my-network
+    environment:
+      - SPRING_APPLICATION_NAME=server-customer
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+
+  server-bank:
+    build: ./Day27-Docker-WebClientBank
+    container_name: server-bank
+    ports:
+      - "6061:6061"
+    depends_on:
+      - api-gateway
+    networks:
+      - my-network
+    environment:
+      - SPRING_APPLICATION_NAME=server-bank
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+
+  server-vendor:
+    build: ./Day27-Docker-WebClientVendor
+    container_name: server-vendor
+    ports:
+      - "6062:6062"
+    depends_on:
+      - api-gateway
+    networks:
+      - my-network
+    environment:
+      - SPRING_APPLICATION_NAME=server-vendor
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+
+networks:
+  my-network:
+    driver: bridge
