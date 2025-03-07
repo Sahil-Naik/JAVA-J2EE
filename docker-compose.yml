@@ -82,17 +82,17 @@ services:
     container_name: server-customer
     ports:
       - "6060:6060"
-    depends_on:
-      - api-gateway
- #     - mysql-container-customers_db
+#    depends_on:
+#      - api-gateway
+#      - mysql-container-customers_db
     networks:
       - mysql_network
-    environment:
-      - SPRING_APPLICATION_NAME=server-customer
-      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-customers_db:3306/customers_db
+#    environment:
+#      - SPRING_APPLICATION_NAME=server-customer
+#      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+#      - SPRING_DATASOURCE_USERNAME=root
+#      - SPRING_DATASOURCE_PASSWORD=root
+#      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-customers_db:3306/customers_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
 
   server-bank:
@@ -100,17 +100,17 @@ services:
     container_name: server-bank
     ports:
       - "6061:6061"
-    depends_on:
-      - api-gateway
+#    depends_on:
+#      - api-gateway
 #      - mysql-container-banks_db
     networks:
       - mysql_network
-    environment:
-      - SPRING_APPLICATION_NAME=server-bank
-      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-banks_db:3306/banks_db
+#    environment:
+#      - SPRING_APPLICATION_NAME=server-bank
+#      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+#      - SPRING_DATASOURCE_USERNAME=root
+#      - SPRING_DATASOURCE_PASSWORD=root
+#      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-banks_db:3306/banks_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
 
   server-vendor:
@@ -118,19 +118,19 @@ services:
     container_name: server-vendor
     ports:
       - "6062:6062"
-    depends_on:
-      - api-gateway
+#    depends_on:
+#      - api-gateway
 #      - mysql-container-vendors_db
     networks:
       - mysql_network
-    environment:
-      - SPRING_APPLICATION_NAME=server-vendor
-      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-vendors_db:3306/vendors_db
+#    environment:
+#      - SPRING_APPLICATION_NAME=server-vendor
+#      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+#      - SPRING_DATASOURCE_USERNAME=root
+#      - SPRING_DATASOURCE_PASSWORD=root
+#      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-vendors_db:3306/vendors_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
 
 networks:
   mysql_network:
-    driver: bridge
+    external: true
