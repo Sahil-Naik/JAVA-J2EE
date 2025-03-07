@@ -1,0 +1,19 @@
+>>> docker network create my_network
+
+>>> docker run --name mysql-container --network my_network -e MYSQL_ROOT_PASSWORD=your_password -d mysql:latest
+
+>>> docker exec -it mysql-container mysql -u root -p
+    Enter password:  /// TYPE PASSWORD HERE
+
+
+To Stop the service use:
+
+>>> docker stop mysql-container
+
+To remove our container use:
+
+>>> docker rm mysql-container
+
+To remove our network use:
+
+>>> docker network rm my_network

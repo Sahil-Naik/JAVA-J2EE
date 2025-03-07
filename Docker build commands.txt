@@ -1,0 +1,8 @@
+To build using docker-compose.yml:
+>>> docker compose up --build
+
+To stop servers:
+>>> docker compose down
+
+To delete stopped containers:
+>>> docker system prune -a

@@ -1,0 +1,42 @@
+>>> docker run --name mysql-container-banks_db --network mysql_network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=banks_db -e MYSQL_USER=banks_db -e MYSQL_PASSWORD=banks_db -p 3307:3306 -d mysql:latest
+
+>>> docker exec -it mysql-container-banks_db mysql -u root -p
+
+MySQL: >>> CREATE DATABASE banks_db;
+       >>> USE banks_db;
+       >>> CREATE TABLE bank (
+    	   account_id INT AUTO_INCREMENT PRIMARY KEY,
+    	   holder_name VARCHAR(255),
+	   holder_phone VARCHAR(255) UNIQUE,
+ 	   balance DOUBLE NOT NULL,
+	   vendor_name VARCHAR(255));
+       >>> EXIT
+
+>>> docker run --name mysql-container-customers_db --network mysql_network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=customers_db -e MYSQL_USER=customers_db -e MYSQL_PASSWORD=customers_db -p 3308:3306 -d mysql:latest
+
+>>> docker exec -it mysql-container-customers_db mysql -u root -p
+
+MySQL: >>> CREATE DATABASE customers_db;
+       >>> USE customers_db;
+       >>> CREATE TABLE customer (
+    	   customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    	   customer_phone VARCHAR(255),
+    	   customer_bill VARCHAR(255) NOT NULL,
+    	   customer_bank_id VARCHAR(255) NOT NULL,
+    	   customer_store VARCHAR(255) NOT NULL);
+       >>> EXIT
+
+>>> docker run --name mysql-container-vendors_db --network mysql_network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=vendors_db -e MYSQL_USER=vendors_db -e MYSQL_PASSWORD=vendors_db -p 3309:3306 -d mysql:latest
+
+>>> docker exec -it mysql-container-vendors_db mysql -u root -p
+
+MySQL: >>> CREATE DATABASE vendors_db;
+       >>> USE vendors_db;
+       >>> CREATE TABLE vendor (
+    	   vendor_id INT PRIMARY KEY,
+    	   vendor_name VARCHAR(255) UNIQUE,
+    	   vendor_abbri VARCHAR(255));
+       >>> EXIT
+
+
+
