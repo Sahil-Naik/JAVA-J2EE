@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.project"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.ui.Basic"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="0"/>
@@ -65,6 +64,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day27-Docker-APIGateaway"/>
+			<item value="F:\JAVA-J2EE\Day27-Docker-WebClientVendor"/>
+			<item value="F:\JAVA-J2EE\Day27-Docker-WebClientCustomer"/>
+			<item value="F:\JAVA-J2EE\Day27-Docker-WebClientBank"/>
+			<item value="F:\JAVA-J2EE\Day27-Docker-ServerRegistry"/>
+			<item value="F:\JAVA-J2EE\Day27-Docker-ConfigServer"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerCustomer"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerBank"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-WebClientCustomerAPI"/>
@@ -79,12 +84,6 @@
 			<item value="F:\JAVA-J2EE\Day26-APIGateaway-CircuitBreaker"/>
 			<item value="F:\JAVA-J2EE\Day25-ServerRegistry"/>
 			<item value="F:\JAVA-J2EE\Day25-ServerCustomer"/>
-			<item value="F:\JAVA-J2EE\Day25-ServerBank"/>
-			<item value="F:\JAVA-J2EE\Day25-ConfigServer"/>
-			<item value="F:\JAVA-J2EE\Day25-APIGateaway"/>
-			<item value="F:\JAVA-J2EE\Day24-ServerCustomer"/>
-			<item value="F:\JAVA-J2EE\Day24-ServerBank"/>
-			<item value="F:\JAVA-J2EE\Day24-EurekaServer"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
@@ -94,6 +93,15 @@
 			<item key="DIALOG_Y_ORIGIN" value="97"/>
 			<item key="DIALOG_WIDTH" value="525"/>
 			<item key="DIALOG_HEIGHT" value="710"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+		<section name="BasicNewProjectResourceWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="0"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
 	</section>
