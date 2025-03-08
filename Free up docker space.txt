@@ -1,0 +1,16 @@
+Close docker desktop
+
+or in powershell type: 
+>>> wsl --shutdown
+>>> wsl.exe --list --verbose
+
+Then open Disk partition
+>>> diskpart
+
+Inside diskpart type:
+>>> select vdisk file="C:\Users\{USERNAME}\AppData\Local\docker\wsl\disk\{name}.vhdx”
+>>> compact vdisk
+
+and also try this:
+>>> select vdisk file="C:\Users\{USERNAME}\AppData\Local\docker\wsl\main\{name}.vhdx”
+>>> compact vdisk

@@ -64,6 +64,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientVendor"/>
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientCustomer"/>
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientBank"/>
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-ServerRegistry"/>
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-ConfigServer"/>
+			<item value="F:\JAVA-J2EE\Day29-Jenkins-APIGateaway"/>
 			<item value="F:\JAVA-J2EE\Day27-ServerRegistry-Circuitbreaker"/>
 			<item value="F:\JAVA-J2EE\Day27-Docker-APIGateaway"/>
 			<item value="F:\JAVA-J2EE\Day27-Docker-WebClientVendor"/>
@@ -78,12 +84,6 @@
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerRegistry"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ConfigServer"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-APIGateaway"/>
-			<item value="F:\JAVA-J2EE\Day26-ServerCustomer-CircuitBreaker"/>
-			<item value="F:\JAVA-J2EE\Day26-ServerBank-CircuitBreaker"/>
-			<item value="F:\JAVA-J2EE\Day26-ServerRegistry-CircuitBreaker"/>
-			<item value="F:\JAVA-J2EE\Day26-ConfigServer-CircuitBreaker"/>
-			<item value="F:\JAVA-J2EE\Day26-APIGateaway-CircuitBreaker"/>
-			<item value="F:\JAVA-J2EE\Day25-ServerRegistry"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

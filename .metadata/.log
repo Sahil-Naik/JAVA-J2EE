@@ -7665,3 +7665,39 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:42:08.499
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.403
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.403
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.410
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.410
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.449
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.449
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.455
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.455
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.463
+!MESSAGE [Info] Document is null for editor: server-vendor.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.463
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/server-vendor.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.477
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 20:24:46.477
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/server-bank.properties
