@@ -11,7 +11,7 @@
 
 	</parent>
 	<groupId>com.wipro</groupId>
-	<artifactId>ConfigServer</artifactId>
+	<artifactId>Day27-Docker-ConfigServer</artifactId>
 	<name>Config Server</name>
 	<packaging>jar</packaging>
 	<description>Configuration server demo</description>

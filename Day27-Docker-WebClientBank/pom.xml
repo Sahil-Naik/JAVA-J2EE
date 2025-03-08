@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro.bank</groupId>
-	<artifactId>WebClientBank</artifactId>
+	<artifactId>Day27-Docker-WebClientBank</artifactId>
 	<name>Bank</name>
 	<packaging>jar</packaging>
 	<description>Web Client Bank Management System</description>

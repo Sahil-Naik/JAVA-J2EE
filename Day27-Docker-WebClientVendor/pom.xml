@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro.vendor</groupId>
-	<artifactId>WebClientVendor</artifactId>
+	<artifactId>Day27-Docker-WebClientVendor</artifactId>
 	<name>Vendor</name>
 	<packaging>jar</packaging>
 	<description>Web Client Vendor Management System</description>

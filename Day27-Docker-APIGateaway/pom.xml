@@ -10,7 +10,8 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro</groupId>
-	<artifactId>APIGateaway</artifactId>
+	<artifactId>Day27-Docker-APIGateaway</artifactId>
+	<version>3.4.3</version>
 	<name>APIGateaway</name>
 	<packaging>jar</packaging>
 	<description>API Gateaway</description>

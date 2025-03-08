@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.wipro.eureka</groupId>
-	<artifactId>ServerRegistry</artifactId>
+	<artifactId>Day27-Docker-ServerRegistry</artifactId>
 	<name>Server Registry</name>
 	<packaging>jar</packaging>
 	<description>Configuration Server</description>
