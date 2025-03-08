@@ -7578,3 +7578,90 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:12:22.765
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:29:29.793
+!MESSAGE [Info] Document is null for editor: MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:29:29.794
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/java/com/wipro/bank/controller/MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:29:30.640
+!MESSAGE [Info] Document is null for editor: MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:29:30.640
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientCustomer/src/main/java/com/wipro/customer/controller/MessageRestController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:32:43.409
+!MESSAGE [Info] Document is null for editor: CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:32:43.409
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientCustomer/src/main/java/com/wipro/customer/controller/CustomerController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:32:44.535
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:32:44.535
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/java/com/wipro/bank/controller/BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.579
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.579
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-APIGateaway/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.598
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.598
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.614
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.614
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ServerRegistry/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.634
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.634
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.655
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.655
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientCustomer/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.674
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.674
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.757
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:06.922
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:08.014
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:40:08.014
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:41:35.123
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:41:35.131
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-08 19:41:36.123
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:42:08.498
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 19:42:08.499
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/resources/application.properties
