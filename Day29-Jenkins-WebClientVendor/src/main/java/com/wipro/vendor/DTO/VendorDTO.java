@@ -1,15 +1,5 @@
 package com.wipro.vendor.DTO;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-
 public class VendorDTO {
 	
 	private int vendorId;
