@@ -8,10 +8,10 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.wipro</groupId>
-	<artifactId>Day27-WebClientBank-Circuitbreaker</artifactId>
+	<groupId>com.wipro.bank</groupId>
+	<artifactId>Day29-Jenkins-WebClientBank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BankAPI</name>
+	<name>WebClient Bank</name>
 	<description>Web Client Bank Management System</description>
 	<url/>
 	<licenses>

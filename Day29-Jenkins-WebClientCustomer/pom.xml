@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro.customer</groupId>
-	<artifactId>Day27-WebClientCustomerAPI-Circuitbreaker</artifactId>
+	<artifactId>Day29-Jenkins-WebClientCustomer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CustomerAPI</name>
+	<name>WebClient Customer</name>
 	<description>Web Client Customer Management System</description>
 	<url />
 	<licenses>

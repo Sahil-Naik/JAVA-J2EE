@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro</groupId>
-	<artifactId>ConfigServerDemo</artifactId>
+	<artifactId>spring-cloud-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Day24-ConfigServer</name>
+	<name>Config Server</name>
 	<description>Configuration server demo</description>
 	<url />
 	<licenses>

@@ -9,10 +9,10 @@
 		<version>3.4.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gfg</groupId>
+	<groupId>com.wipro</groupId>
 	<artifactId>spring-cloud-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring Cloud Gateway</name>
+	<name>API Gateway</name>
 	<description>Spring Cloud Gateway</description>
 	<properties>
 		<java.version>17</java.version>
