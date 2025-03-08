@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the built JAR file
-COPY target/APIGateaway-3.4.3.jar api-gateaway.jar
+COPY target/Day27-Docker-APIGateaway-3.4.3.jar api-gateaway.jar
 
 # Expose the Eureka Server port
 EXPOSE 8888

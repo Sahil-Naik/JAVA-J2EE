@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the built JAR file
-COPY target/WebClientVendor-3.4.3.jar server-vendor.jar
+COPY target/Day27-Docker-WebClientVendor-3.4.3.jar server-vendor.jar
 
 # Expose the Eureka Server port
 EXPOSE 6062

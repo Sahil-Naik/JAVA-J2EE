@@ -7212,3 +7212,33 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:43:35.394
 !MESSAGE Classpath changed for project: Day27-Docker-APIGateaway
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:47:57.192
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:47:57.192
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-APIGateaway/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.178
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.178
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.179
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.179
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.183
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:48:24.186
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:48:26.121
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:48:26.122
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ServerRegistry/pom.xml
