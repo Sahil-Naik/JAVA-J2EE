@@ -7092,3 +7092,123 @@ java.util.concurrent.TimeoutException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 17:15:37.350
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day29-Jenkins-ServerRegistry/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:04:50.440
+!MESSAGE [Info] Document is null for editor: VendorDTO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:04:50.440
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day29-Jenkins-WebClientVendor/src/main/java/com/wipro/vendor/DTO/VendorDTO.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:04:50.612
+!MESSAGE [Info] Document is null for editor: VendorController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:04:50.612
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day29-Jenkins-WebClientVendor/src/main/java/com/wipro/vendor/controller/VendorController.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.794
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.796
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.797
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.797
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.803
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:05:10.806
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:05:25.865
+!MESSAGE Classpath changed for project: Day27-Docker-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:05:48.326
+!MESSAGE Classpath changed for project: Day27-Docker-WebClientBank
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:08:18.714
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:08:18.714
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:08:18.794
+!MESSAGE [Info] Document is null for editor: BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:08:18.795
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/java/com/wipro/bank/BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:09:07.522
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:09:07.523
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:09:30.071
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:09:30.071
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientCustomer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:10:58.177
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:10:58.178
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:11:01.404
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:11:01.404
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-ConfigServer/server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:11:02.012
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:11:02.012
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:13:37.341
+!MESSAGE [Info] Document is null for editor: dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:13:37.341
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:42:09.654
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-08 18:42:09.660
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-08 18:42:10.543
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.548
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.549
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.550
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.550
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.555
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-08 18:42:21.557
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:43:29.853
+!MESSAGE Classpath changed for project: Day27-Docker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:43:30.035
+!MESSAGE Classpath changed for project: Day27-Docker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-08 18:43:35.394
+!MESSAGE Classpath changed for project: Day27-Docker-APIGateaway
