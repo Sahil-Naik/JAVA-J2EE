@@ -1,0 +1,6 @@
+>>> docker run --name=server-registry --network=mysql_network -p 8761:8761 server-registry
+>>> docker run --name=config-server --network=mysql_network -p 8888:8888 config-server
+>>> docker run --name=api-gateway --network=mysql_network -p 9090:9090 api-gateway
+>>> docker run --name=server-bank --network=mysql_network -p 6061:6061 server-bank
+>>> docker run --name=server-customer --network=mysql_network -p 6060:6060 server-customer
+>>> docker run --name=server-vendor --network=mysql_network -p 6062:6062 server-vendor

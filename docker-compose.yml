@@ -2,12 +2,19 @@ version: '3.8'
 
 services:
   server-registry:
+#    image: eureka-server:latest
     build: ./Day27-Docker-ServerRegistry
+    image: server-registry:latest
     container_name: server-registry
     ports:
       - "8761:8761"
     networks:
       - mysql_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8761/eureka/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
 
 #  mysql_banks:
@@ -49,11 +56,13 @@ services:
 
   config-server:
     build: ./Day27-Docker-ConfigServer
+    image: config-server:latest
     container_name: config-server
     ports:
       - "8888:8888"
     depends_on:
-      - server-registry
+        server-registry:
+            condition: service_healthy
     networks:
       - mysql_network
     environment:
@@ -66,6 +75,7 @@ services:
 
   api-gateway:
     build: ./Day27-Docker-APIGateaway
+    image: api-gateway:latest
     container_name: api-gateway
     ports:
       - "9090:9090"
@@ -76,15 +86,21 @@ services:
     depends_on:
       config-server:
         condition: service_healthy
+      server-registry:
+        condition: service_healthy
 
   server-customer:
     build: ./Day27-Docker-WebClientCustomer
+    image: server-customer:latest
     container_name: server-customer
     ports:
       - "6060:6060"
 #    depends_on:
 #      - api-gateway
 #      - mysql-container-customers_db
+    depends_on:
+        api-gateway:
+            condition: service_healthy
     networks:
       - mysql_network
 #    environment:
@@ -94,15 +110,23 @@ services:
 #      - SPRING_DATASOURCE_PASSWORD=root
 #      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-customers_db:3306/customers_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
+#    eureka:
+#    client:
+#      service-url:
+#        defaultZone: http://server-registry:8761/eureka/
 
   server-bank:
     build: ./Day27-Docker-WebClientBank
+    image: server-bank:latest
     container_name: server-bank
     ports:
       - "6061:6061"
 #    depends_on:
 #      - api-gateway
 #      - mysql-container-banks_db
+    depends_on:
+        api-gateway:
+            condition: service_healthy
     networks:
       - mysql_network
 #    environment:
@@ -112,15 +136,23 @@ services:
 #      - SPRING_DATASOURCE_PASSWORD=root
 #      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-banks_db:3306/banks_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
+#    eureka:
+#    client:
+#      service-url:
+#        defaultZone: http://server-registry:8761/eureka/
 
   server-vendor:
     build: ./Day27-Docker-WebClientVendor
+    image: server-vendor:latest
     container_name: server-vendor
     ports:
       - "6062:6062"
 #    depends_on:
 #      - api-gateway
 #      - mysql-container-vendors_db
+    depends_on:
+        api-gateway:
+            condition: service_healthy
     networks:
       - mysql_network
 #    environment:
@@ -130,7 +162,12 @@ services:
 #      - SPRING_DATASOURCE_PASSWORD=root
 #      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-container-vendors_db:3306/vendors_db
 #      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
+#    eureka:
+#    client:
+#      service-url:
+#        defaultZone: http://server-registry:8761/eureka/
 
 networks:
   mysql_network:
-    external: true
+#    external: true
+    driver: bridge

@@ -3,7 +3,9 @@ server:
 eureka:
   client:
     registerWithEureka: false
-    fetchRegistry: false	
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
 management:
   endpoints:
     web:
