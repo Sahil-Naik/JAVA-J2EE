@@ -1,0 +1,19 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: server-customer
+#          uri: lb://SERVER-CUSTOMER
+#          predicates:
+#            - Path=/customer/**
+#        - id: server-bank
+#          uri: lb://SERVER-BANK
+#          predicates:
+#            - Path=/bank/**
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: localhost

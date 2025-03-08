@@ -51,6 +51,12 @@
 <item elementID="=Day27-Circuitbreaker-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day27-Circuitbreaker-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day27-Circuitbreaker-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-APIGateaway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-ConfigServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-ServerRegistry" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day29-Jenkins-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1740756713078_8" label="Day10-19" name="Day10-19">
 <item elementID="=Day17-HiberORM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
