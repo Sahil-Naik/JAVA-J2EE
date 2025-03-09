@@ -64,6 +64,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA-J2EE\Day30-DJ-WebClientVendor"/>
+			<item value="F:\JAVA-J2EE\Day30-DJ-WebClientCustomer"/>
+			<item value="F:\JAVA-J2EE\Day30-DJ-WebClientBank"/>
+			<item value="F:\JAVA-J2EE\Day30-DJ-ServerRegistry"/>
+			<item value="F:\JAVA-J2EE\Day30-DJ-ConfigServer"/>
+			<item value="F:\JAVA-J2EE\Day30-DJ-APIGateaway"/>
 			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientVendor"/>
 			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientCustomer"/>
 			<item value="F:\JAVA-J2EE\Day29-Jenkins-WebClientBank"/>
@@ -78,12 +84,6 @@
 			<item value="F:\JAVA-J2EE\Day27-Docker-ServerRegistry"/>
 			<item value="F:\JAVA-J2EE\Day27-Docker-ConfigServer"/>
 			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerCustomer"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerBank"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-WebClientCustomerAPI"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-WebClientBankAPI"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ServerRegistry"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-ConfigServer"/>
-			<item value="F:\JAVA-J2EE\Day26-Ciruitbreaker-APIGateaway"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
