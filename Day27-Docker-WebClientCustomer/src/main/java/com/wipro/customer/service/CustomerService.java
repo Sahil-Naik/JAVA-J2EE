@@ -66,7 +66,7 @@ public class CustomerService {
 
 	    // Fetch Bank details
 	    Mono<BankDTO> bankDTOMono = webClient.get()
-	            .uri("http://localhost:6061/bank/{customerBankId}", cust.getCustomerBankId())
+	            .uri("http://server-bank:6061/bank/{customerBankId}", cust.getCustomerBankId())
 	            .retrieve()
 	            .bodyToMono(BankDTO.class);
 
@@ -74,7 +74,7 @@ public class CustomerService {
 
 	    // Fetch Vendor details using vendor_name from BankDTO
 	    Mono<VendorDTO> vendorDTOMono = webClient.get()
-	            .uri("http://localhost:6062/vendor/{vendorAbbri}", bankDTO.getVendor_name()) // vendor_name is used as abbri
+	            .uri("http://server-vendor:6062/vendor/{vendorAbbri}", bankDTO.getVendor_name()) // vendor_name is used as abbri
 	            .retrieve()
 	            .bodyToMono(VendorDTO.class);
 
