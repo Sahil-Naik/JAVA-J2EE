@@ -8082,3 +8082,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-09 11:12:21.829
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientBank/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-09 11:19:28.256
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-09 11:19:28.262
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-09 11:19:29.611
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-09 11:19:49.763
+!MESSAGE [Info] Document is null for editor: VendorController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-09 11:19:49.763
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day27-Docker-WebClientVendor/src/main/java/com/wipro/vendor/controller/VendorController.java
