@@ -3477,3 +3477,200 @@
 2025-03-09 17:38:04,025 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-09 17:38:04,055 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-09 17:38:04,058 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day27-Docker-WebClientVendor\src\test\resources
+2025-03-09 17:59:37,969 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 17:59:37,976 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 17:59:37,978 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day27-Docker-WebClientCustomer\src\test\resources
+2025-03-09 18:20:48,754 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [638])
+2025-03-09 18:20:48,755 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-03-09 18:20:48,756 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-03-09 18:20:48,757 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-03-09 18:20:48,758 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-03-09 18:20:48,759 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-03-09 18:20:48,760 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-03-09 18:20:48,761 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-03-09 18:20:48,762 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [16])
+2025-03-09 18:20:48,762 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\com.google.guava_33.3.1.jre.jar
+2025-03-09 18:20:48,762 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1005])
+2025-03-09 18:20:48,762 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-03-09 18:20:48,762 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [29])
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [75])
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-03-09 18:20:48,763 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2025-03-09 18:20:48,764 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-03-09 18:20:48,764 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2025-03-09 18:20:48,764 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\PREDATOR\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-03-09 18:20:48,766 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "F:\JAVA-J2EE\Day27-Docker-APIGateaway":
+2025-03-09 18:20:48,767 [Worker-95: Launching Day27-Docker-APIGateaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2025-03-09 19:57:28,990 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-09 20:00:07,295 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:Day27-Docker-APIGateaway:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-APIGateaway\pom.xml.
+2025-03-09 20:00:09,249 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-09 20:00:09,273 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:09,279 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:00:09,875 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-09 20:00:09,877 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:09,881 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:00:21,301 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:Day27-Docker-ConfigServer:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-ConfigServer\pom.xml.
+2025-03-09 20:00:23,096 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:23,115 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:23,121 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:00:23,647 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:23,648 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:23,653 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:00:29,557 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.eureka:Day27-Docker-ServerRegistry:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-ServerRegistry\pom.xml.
+2025-03-09 20:00:31,256 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:31,275 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:31,279 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ServerRegistry\src\test\resources
+2025-03-09 20:00:33,667 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:33,669 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:33,673 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ServerRegistry\src\test\resources
+2025-03-09 20:00:39,338 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.bank:Day27-Docker-WebClientBank:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-WebClientBank\pom.xml.
+2025-03-09 20:00:41,265 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:41,279 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:41,283 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:00:43,910 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:43,912 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:43,915 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:00:48,385 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.customer:Day27-Docker-WebClientCustomer:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\pom.xml.
+2025-03-09 20:00:50,168 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:50,188 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:50,193 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\src\test\resources
+2025-03-09 20:00:50,928 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:50,929 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:50,932 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\src\test\resources
+2025-03-09 20:00:58,241 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.vendor:Day27-Docker-WebClientVendor:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-WebClientVendor\pom.xml.
+2025-03-09 20:00:59,817 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:59,829 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:00:59,834 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
+2025-03-09 20:01:00,557 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:01:00,558 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:01:00,561 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
+2025-03-09 20:18:12,452 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:18:12,453 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:18:12,455 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:18:20,872 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:18:20,872 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:18:20,875 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:20:31,702 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:20:31,728 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:20:31,735 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:20:51,486 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:20:51,492 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:20:51,494 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
+2025-03-09 20:20:56,900 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:20:56,914 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:20:56,917 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\src\test\resources
+2025-03-09 20:21:14,033 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:14,034 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:14,036 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:21:34,039 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:34,040 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:34,042 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:21:43,623 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:43,623 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:43,626 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:21:47,321 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:47,321 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:47,324 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:21:49,320 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:49,320 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:21:49,323 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:24:14,769 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:24:14,769 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:24:14,771 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:27:10,961 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:27:10,968 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:27:10,971 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:28:14,517 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:Day27-Docker-APIGateaway:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-APIGateaway\pom.xml.
+2025-03-09 20:28:15,992 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:15,992 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:15,996 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:28:17,355 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-09 20:28:17,366 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-09 20:28:17,370 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:28:21,138 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:Day30-DJ-APIGateaway:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-APIGateaway\pom.xml.
+2025-03-09 20:28:21,884 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:21,885 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:21,888 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:28:39,701 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:39,701 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:28:39,704 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-APIGateaway\src\test\resources
+2025-03-09 20:29:07,805 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:07,806 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:07,808 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:29:19,120 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:19,121 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:19,124 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ServerRegistry\src\test\resources
+2025-03-09 20:29:38,270 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:Day30-DJ-ConfigServer:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-ConfigServer\pom.xml.
+2025-03-09 20:29:38,974 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:38,974 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:38,977 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ConfigServer\src\test\resources
+2025-03-09 20:29:48,602 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.eureka:Day30-DJ-ServerRegistry:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-ServerRegistry\pom.xml.
+2025-03-09 20:29:49,477 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:49,478 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:29:49,480 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-ServerRegistry\src\test\resources
+2025-03-09 20:30:07,160 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:07,160 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:07,164 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:30:13,050 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:13,050 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:13,052 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:30:26,676 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.bank:Day30-DJ-WebClientBank:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-WebClientBank\pom.xml.
+2025-03-09 20:30:27,523 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:27,524 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:27,526 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientBank\src\test\resources
+2025-03-09 20:30:41,798 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:41,799 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:41,801 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\src\test\resources
+2025-03-09 20:30:44,853 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:44,853 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:30:44,855 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientCustomer\src\test\resources
+2025-03-09 20:31:00,595 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro.vendor:Day30-DJ-WebClientVendor:3.4.3 @ F:\JAVA-J2EE\Day30-DJ-WebClientVendor\pom.xml.
+2025-03-09 20:31:01,591 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:01,592 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:01,594 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
+2025-03-09 20:31:20,082 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:20,082 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:20,085 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
+2025-03-09 20:31:24,302 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:24,303 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-09 20:31:24,305 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\JAVA-J2EE\Day30-DJ-WebClientVendor\src\test\resources
