@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessageRestController {
 	 
-	@Value("${spring.boot.message}")
+	@Value("From main App")
 	private String message;
 	
 	@GetMapping("/message")
