@@ -41,7 +41,7 @@ pipeline {
                     ]
 
                     for (service in services.keySet()) {
-                        sh """
+                        bat """
                             cd ${service}
                             docker build -t ${services[service]} .
                             cd ..
@@ -54,19 +54,19 @@ pipeline {
         stage('Run Containers') {
             steps {
                 script {
-                    sh """
+                    bat """
                         docker network create ${DOCKER_NETWORK} || true
                         
                         docker run -d --name=server-registry --network=${DOCKER_NETWORK} -p 8761:8761 server-registry
-                        sleep 10
+                        timeout /t 5
                         docker run -d --name=config-server --network=${DOCKER_NETWORK} -p 8888:8888 config-server
-                        sleep 10
+                        timeout /t 5
                         docker run -d --name=api-gateway --network=${DOCKER_NETWORK} -p 9090:9090 api-gateway
-                        sleep 10
+                        timeout /t 5
                         docker run -d --name=server-bank --network=${DOCKER_NETWORK} -p 6061:6061 server-bank
-                        sleep 10
+                        timeout /t 5
                         docker run -d --name=server-customer --network=${DOCKER_NETWORK} -p 6060:6060 server-customer
-                        sleep 10
+                        timeout /t 5
                         docker run -d --name=server-vendor --network=${DOCKER_NETWORK} -p 6062:6062 server-vendor
                     """
                 }
