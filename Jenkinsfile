@@ -55,7 +55,7 @@ pipeline {
             steps {
                 script {
                     bat """
-                        docker network create ${DOCKER_NETWORK} || true
+                        docker rm -f server-registry config-server api-gateway server-bank server-customer server-vendor 2>nul
                         
                         docker run -d --name=server-registry --network=${DOCKER_NETWORK} -p 8761:8761 server-registry
                         timeout /t 5
