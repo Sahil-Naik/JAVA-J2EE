@@ -18,7 +18,7 @@ pipeline {
                     def services = ['Day30-DJ-APIGateaway', 'Day30-DJ-ConfigServer', 'Day30-DJ-ServerRegistry', 'Day30-DJ-WebClientBank', 'Day30-DJ-WebClientCustomer', 'Day30-DJ-WebClientVendor']
                     
                     for (service in services) {
-                        sh """
+                        bat """
                             cd ${service}
                             mvn clean package -DskipTests
                             cd ..
