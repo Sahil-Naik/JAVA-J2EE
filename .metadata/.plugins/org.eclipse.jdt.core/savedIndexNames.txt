@@ -66,7 +66,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 461035024.index
 2590137679.index
 1304145013.index
-387370273.index
 985973812.index
 3987859990.index
 1726809262.index
@@ -101,7 +100,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 924270850.index
 2747139813.index
 3215689927.index
-3594345664.index
 534186411.index
 2060184842.index
 2479367584.index
@@ -241,7 +239,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 636596459.index
 1924100194.index
 2477418171.index
-2943139920.index
 3576091434.index
 1189332029.index
 1779857709.index
@@ -277,13 +274,11 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 1651734051.index
 503622209.index
 2958934411.index
-2432651171.index
 1885986123.index
 2170389085.index
 3785503394.index
 338672921.index
 179345165.index
-1148752717.index
 515889796.index
 3649642404.index
 641682986.index
@@ -297,7 +292,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 2582681024.index
 2133982147.index
 2975439903.index
-3742181485.index
 868753600.index
 2387221898.index
 1364850216.index
@@ -347,8 +341,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 2460516571.index
 2336591302.index
 2852815217.index
-2304729768.index
-2333013407.index
 2277631545.index
 2286078393.index
 234215603.index
@@ -564,7 +556,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 1444239693.index
 2884548763.index
 2967671641.index
-471684099.index
 2044746217.index
 476653505.index
 946960170.index
@@ -587,8 +578,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 533730534.index
 3571596142.index
 1390544994.index
-2562853279.index
-2967835307.index
 663689219.index
 955947011.index
 2328269416.index
@@ -606,7 +595,6 @@ INDEX VERSION 1.134+F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.jdt.core
 43261592.index
 43310968.index
 291025585.index
-4278826760.index
 1032078388.index
 1128955993.index
 2065089388.index
