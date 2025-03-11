@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 23
+Class-Path: lib/spring-cloud-config-server-4.2.0.jar lib/spring-cloud-co
+ nfig-client-4.2.0.jar lib/spring-web-6.2.3.jar lib/spring-beans-6.2.3.j
+ ar lib/micrometer-observation-1.14.4.jar lib/micrometer-commons-1.14.4.
+ jar lib/spring-boot-starter-web-3.4.3.jar lib/spring-boot-starter-json-
+ 3.4.3.jar lib/jackson-datatype-jdk8-2.18.2.jar lib/jackson-module-param
+ eter-names-2.18.2.jar lib/spring-boot-starter-tomcat-3.4.3.jar lib/tomc
+ at-embed-core-10.1.36.jar lib/tomcat-embed-websocket-10.1.36.jar lib/sp
+ ring-webmvc-6.2.3.jar lib/spring-aop-6.2.3.jar lib/spring-expression-6.
+ 2.3.jar lib/spring-boot-starter-validation-3.4.3.jar lib/tomcat-embed-e
+ l-10.1.36.jar lib/hibernate-validator-8.0.2.Final.jar lib/jakarta.valid
+ ation-api-3.0.2.jar lib/jboss-logging-3.6.1.Final.jar lib/classmate-1.7
+ .0.jar lib/spring-security-crypto-6.4.3.jar lib/httpclient5-5.4.2.jar l
+ ib/httpcore5-5.3.3.jar lib/httpcore5-h2-5.3.3.jar lib/org.eclipse.jgit-
+ 6.10.0.202406032230-r.jar lib/JavaEWAH-1.2.3.jar lib/commons-codec-1.17
+ .2.jar lib/org.eclipse.jgit.http.apache-6.10.0.202406032230-r.jar lib/h
+ ttpcore-4.4.16.jar lib/org.eclipse.jgit.ssh.apache-6.10.0.202406032230-
+ r.jar lib/sshd-osgi-2.12.1.jar lib/jcl-over-slf4j-2.0.16.jar lib/sshd-s
+ ftp-2.12.1.jar lib/eddsa-0.3.0.jar lib/snakeyaml-2.3.jar lib/jackson-da
+ taformat-yaml-2.18.2.jar lib/spring-boot-starter-actuator-3.4.3.jar lib
+ /spring-boot-actuator-autoconfigure-3.4.3.jar lib/spring-boot-actuator-
+ 3.4.3.jar lib/jackson-datatype-jsr310-2.18.2.jar lib/micrometer-jakarta
+ 9-1.14.4.jar lib/micrometer-core-1.14.4.jar lib/HdrHistogram-2.2.2.jar 
+ lib/LatencyUtils-2.0.3.jar lib/spring-boot-starter-3.4.3.jar lib/spring
+ -boot-3.4.3.jar lib/spring-context-6.2.3.jar lib/spring-boot-autoconfig
+ ure-3.4.3.jar lib/spring-boot-starter-logging-3.4.3.jar lib/logback-cla
+ ssic-1.5.16.jar lib/logback-core-1.5.16.jar lib/log4j-to-slf4j-2.24.3.j
+ ar lib/log4j-api-2.24.3.jar lib/jul-to-slf4j-2.0.16.jar lib/jakarta.ann
+ otation-api-2.1.1.jar lib/spring-core-6.2.3.jar lib/spring-jcl-6.2.3.ja
+ r lib/spring-cloud-starter-config-4.2.0.jar lib/spring-cloud-starter-4.
+ 2.0.jar lib/spring-cloud-context-4.2.0.jar lib/spring-cloud-commons-4.2
+ .0.jar lib/bcprov-jdk18on-1.78.1.jar lib/jackson-databind-2.18.2.jar li
+ b/spring-cloud-starter-netflix-eureka-client-4.2.0.jar lib/spring-cloud
+ -netflix-eureka-client-4.2.0.jar lib/spring-cloud-starter-loadbalancer-
+ 4.2.0.jar lib/spring-cloud-loadbalancer-4.2.0.jar lib/reactor-core-3.7.
+ 3.jar lib/reactive-streams-1.0.4.jar lib/reactor-extra-3.5.2.jar lib/sp
+ ring-boot-starter-cache-3.4.3.jar lib/spring-context-support-6.2.3.jar 
+ lib/evictor-1.0.0.jar lib/mysql-connector-j-9.1.0.jar lib/eureka-client
+ -2.0.4.jar lib/xstream-1.4.20.jar lib/mxparser-1.2.2.jar lib/xmlpull-1.
+ 1.3.1.jar lib/jakarta.ws.rs-api-3.1.0.jar lib/jakarta.inject-api-2.0.1.
+ jar lib/spectator-api-1.7.3.jar lib/slf4j-api-2.0.16.jar lib/httpclient
+ -4.5.3.jar lib/commons-configuration-1.10.jar lib/commons-lang-2.6.jar 
+ lib/jackson-annotations-2.18.2.jar lib/jackson-core-2.18.2.jar lib/netf
+ lix-eventbus-0.3.0.jar lib/netflix-infix-0.3.0.jar lib/commons-jxpath-1
+ .3.jar lib/joda-time-2.3.jar lib/antlr-runtime-3.4.jar lib/stringtempla
+ te-3.2.1.jar lib/antlr-2.7.7.jar lib/guava-14.0.1.jar lib/gson-2.11.0.j
+ ar lib/error_prone_annotations-2.27.0.jar lib/servo-core-0.5.3.jar lib/
+ commons-math-2.2.jar lib/javax.annotation-api-1.2.jar lib/jettison-1.5.
+ 4.jar
+Implementation-Title: Config Server
+Implementation-Version: 3.4.3
+Main-Class: com.wipro.ConfigServerApplication
+Created-By: Maven Integration for Eclipse
+
