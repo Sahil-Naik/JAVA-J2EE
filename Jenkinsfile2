@@ -57,17 +57,12 @@ pipeline {
                     bat """
                         docker rm -f server-registry config-server api-gateway server-bank server-customer server-vendor 2>nul
                         
-                        docker run -d --name=server-registry --network=${DOCKER_NETWORK} -p 8761:8761 server-registry
-                        timeout /t 5
-                        docker run -d --name=config-server --network=${DOCKER_NETWORK} -p 8888:8888 config-server
-                        timeout /t 5
-                        docker run -d --name=api-gateway --network=${DOCKER_NETWORK} -p 9090:9090 api-gateway
-                        timeout /t 5
-                        docker run -d --name=server-bank --network=${DOCKER_NETWORK} -p 6061:6061 server-bank
-                        timeout /t 5
-                        docker run -d --name=server-customer --network=${DOCKER_NETWORK} -p 6060:6060 server-customer
-                        timeout /t 5
-                        docker run -d --name=server-vendor --network=${DOCKER_NETWORK} -p 6062:6062 server-vendor
+                        docker run -d --name=server-registry --network=${DOCKER_NETWORK} -p 8761:8761 --restart unless-stopped server-registry
+                        docker run -d --name=config-server --network=${DOCKER_NETWORK} -p 8888:8888 --restart unless-stopped config-server
+                        docker run -d --name=api-gateway --network=${DOCKER_NETWORK} -p 9090:9090 --restart unless-stopped api-gateway
+                        docker run -d --name=server-bank --network=${DOCKER_NETWORK} -p 6061:6061 --restart unless-stopped server-bank
+                        docker run -d --name=server-customer --network=${DOCKER_NETWORK} -p 6060:6060 --restart unless-stopped server-customer
+                        docker run -d --name=server-vendor --network=${DOCKER_NETWORK} -p 6062:6062 --restart unless-stopped server-vendor
                     """
                 }
             }
