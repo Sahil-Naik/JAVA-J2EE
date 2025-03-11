@@ -1,0 +1,62 @@
+package com.yaksha.assessments.blogs.controller;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.yaksha.assessments.blogs.entity.BlogEntity;
+import com.yaksha.assessments.blogs.exception.ResourceNotFoundException;
+import com.yaksha.assessments.blogs.service.BlogService;
+
+@RestController
+@RequestMapping("/api/blogs")
+public class BlogController {
+
+    @Autowired
+    private BlogService blogService;
+
+    @PostMapping
+    public ResponseEntity<BlogEntity> createBlog(@Valid @RequestBody BlogEntity blogEntity) {
+        BlogEntity createdBlog = blogService.createBlog(blogEntity);
+        return ResponseEntity.ok(createdBlog); // This ensures proper response format
+    }
+    
+
+    @GetMapping("/{id}")
+    public ResponseEntity<BlogEntity> getBlogById(@PathVariable Long id) {
+        BlogEntity blog = blogService.getBlogById(id);
+        if (blog == null) {
+            throw new ResourceNotFoundException("Blog not found");
+        }
+        return ResponseEntity.ok(blog);
+    }
+
+    @PutMapping
+    public ResponseEntity<BlogEntity> updateBlog(@Valid @RequestBody BlogEntity blogEntity) {
+        BlogEntity updatedBlog = blogService.updateBlog(blogEntity);
+        if (updatedBlog == null) {
+            throw new ResourceNotFoundException("Blog not found");
+        }
+        return ResponseEntity.ok(updatedBlog);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Boolean> deleteBlogById(@PathVariable Long id) {
+        Boolean deleted = blogService.deleteBlog(id);
+        if (!deleted) {
+            throw new ResourceNotFoundException("Blog not found");
+        }
+        return ResponseEntity.ok(true);
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<BlogEntity>> getAllBlogs() {
+        List<BlogEntity> blogs = blogService.findAll();
+        return ResponseEntity.ok(blogs);
+    }
+}

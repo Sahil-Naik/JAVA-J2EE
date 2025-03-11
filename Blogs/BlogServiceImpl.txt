@@ -1,0 +1,55 @@
+package com.yaksha.assessments.blogs.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.yaksha.assessments.blogs.entity.BlogEntity;
+import com.yaksha.assessments.blogs.exception.ResourceNotFoundException;
+import com.yaksha.assessments.blogs.repository.BlogRepository;
+import com.yaksha.assessments.blogs.service.BlogService;
+
+@Service
+public class BlogServiceImpl implements BlogService {
+
+    @Autowired
+    private BlogRepository blogRepository;
+
+    @Override
+    public BlogEntity createBlog(BlogEntity blogEntity) {
+        BlogEntity savedBlog = blogRepository.save(blogEntity);
+        return savedBlog; // Ensure the saved entity with ID is returned
+    }
+
+    @Override
+    public BlogEntity getBlogById(Long id) {
+        return blogRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Blog not found"));
+    }
+
+    @Override
+    public BlogEntity updateBlog(BlogEntity blogEntity) {
+        // Check if blog exists using its ID
+        if (!blogRepository.existsById(blogEntity.getId())) {
+            throw new ResourceNotFoundException("Blog not found");
+        }
+
+        // Save updated blog
+        return blogRepository.save(blogEntity);
+    }
+
+
+    @Override
+    public Boolean deleteBlog(Long id) {
+        BlogEntity blog = blogRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Blog not found"));
+        blogRepository.delete(blog);
+        return true;
+    }
+
+    @Override
+    public List<BlogEntity> findAll() {
+        return blogRepository.findAll();
+    }
+}
