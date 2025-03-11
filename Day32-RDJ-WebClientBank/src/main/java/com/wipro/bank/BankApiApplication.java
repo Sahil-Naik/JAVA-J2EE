@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories;
 
 @SpringBootApplication
-@EnableR2dbcRepositories(basePackages = "com.wipro.bank")
+//@EnableR2dbcRepositories(basePackages = "com.wipro.bank")
 @ComponentScan(basePackages = "com.wipro.bank")
 @EnableDiscoveryClient
 @RefreshScope

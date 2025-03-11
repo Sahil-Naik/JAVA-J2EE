@@ -20,7 +20,7 @@ public class VendorService {
     @Autowired
     private ModelMapper mapper;
 
-    @Autowired
+    //@Autowired
     private VendorRepository vendorRepository;
 
     public Mono<Vendor> addVendor(Vendor vendor) {

@@ -1,6 +1,6 @@
 package com.wipro.customer.repository;
 
-import org.springframework.data.r2dbc.repository.R2dbcRepository;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.wipro.customer.model.Customer;
@@ -9,7 +9,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Repository
-public interface CustomerRepository extends R2dbcRepository<Customer, Integer> {
+public interface CustomerRepository extends ReactiveCrudRepository<Customer, Integer> {
     
     // Fetch all customers
     Flux<Customer> findAll();

@@ -8,8 +8,6 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-  server:
-    enableSelfPreservation: false
 management:
   endpoints:
     web:
