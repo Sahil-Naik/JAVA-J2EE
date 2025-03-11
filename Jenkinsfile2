@@ -1,0 +1,76 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_NETWORK = "mysql_network"
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/Sahil-Naik/JAVA-J2EE'
+            }
+        }
+
+        stage('Build & Package') {
+            steps {
+                script {
+                    def services = ['Day32-RDJ-APIGateaway', 'Day32-RDJ-ConfigServer', 'Day32-RDJ-ServerRegistry', 'Day32-RDJ-WebClientBank', 'Day32-RDJ-WebClientCustomer', 'Day32-RDJ-WebClientVendor']
+                    
+                    for (service in services) {
+                        bat """
+                            cd ${service}
+                            mvn clean package -DskipTests
+                            cd ..
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                script {
+                    def services = [
+                        'Day32-RDJ-APIGateaway': 'api-gateway',
+                        'Day32-RDJ-ConfigServer': 'config-server',
+                        'Day32-RDJ-ServerRegistry': 'server-registry',
+                        'Day32-RDJ-WebClientBank': 'server-bank',
+                        'Day32-RDJ-WebClientCustomer': 'server-customer',
+                        'Day32-RDJ-WebClientVendor': 'server-vendor'
+                    ]
+
+                    for (service in services.keySet()) {
+                        bat """
+                            cd ${service}
+                            docker build -t ${services[service]} .
+                            cd ..
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('Run Containers') {
+            steps {
+                script {
+                    bat """
+                        docker rm -f server-registry config-server api-gateway server-bank server-customer server-vendor 2>nul
+                        
+                        docker run -d --name=server-registry --network=${DOCKER_NETWORK} -p 8761:8761 server-registry
+                        timeout /t 5
+                        docker run -d --name=config-server --network=${DOCKER_NETWORK} -p 8888:8888 config-server
+                        timeout /t 5
+                        docker run -d --name=api-gateway --network=${DOCKER_NETWORK} -p 9090:9090 api-gateway
+                        timeout /t 5
+                        docker run -d --name=server-bank --network=${DOCKER_NETWORK} -p 6061:6061 server-bank
+                        timeout /t 5
+                        docker run -d --name=server-customer --network=${DOCKER_NETWORK} -p 6060:6060 server-customer
+                        timeout /t 5
+                        docker run -d --name=server-vendor --network=${DOCKER_NETWORK} -p 6062:6062 server-vendor
+                    """
+                }
+            }
+        }
+    }
+}
