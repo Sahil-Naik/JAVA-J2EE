@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the built JAR file
-COPY target/Day30-DJ-ServerRegistry-3.4.3.jar server-registry.jar
+COPY target/Day32-RDJ-ServerRegistry-3.4.3.jar server-registry.jar
 
 # Expose the Eureka Server port
 EXPOSE 8761

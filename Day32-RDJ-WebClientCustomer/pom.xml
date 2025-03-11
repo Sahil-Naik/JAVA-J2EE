@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro.customer</groupId>
-	<artifactId>Day30-DJ-WebClientCustomer</artifactId>
+	<artifactId>Day32-RDJ-WebClientCustomer</artifactId>
 	<name>Customer</name>
 	<packaging>jar</packaging>
 	<description>Web Client Customer Management System</description>

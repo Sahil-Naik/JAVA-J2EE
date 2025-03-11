@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the built JAR file
-COPY target/Day30-DJ-WebClientVendor-3.4.3.jar server-vendor.jar
+COPY target/Day32-RDJ-WebClientVendor-3.4.3.jar server-vendor.jar
 
 # Expose the Server port
 EXPOSE 6062

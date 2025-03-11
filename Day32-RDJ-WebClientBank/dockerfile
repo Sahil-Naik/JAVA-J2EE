@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the built JAR file
-COPY target/Day30-DJ-WebClientBank-3.4.3.jar server-bank.jar
+COPY target/Day32-RDJ-WebClientBank-3.4.3.jar server-bank.jar
 
 # Expose the Server port
 EXPOSE 6061
