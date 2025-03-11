@@ -10,6 +10,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="profile"/>
+			<item value="bean"/>
 			<item value="banks"/>
 			<item value="sql"/>
 			<item value="doc"/>

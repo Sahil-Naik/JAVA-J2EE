@@ -114,6 +114,12 @@
 <item elementID="=Day30-DJ-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day30-DJ-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day30-DJ-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-APIGateaway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-ConfigServer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-ServerRegistry" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day32-RDJ-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1737605560116_2" label="Window Working Set" name="Aggregate for window 1737605560116"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1737693258058_3" label="Window Working Set" name="Aggregate for window 1737693258058"/>
@@ -141,8 +147,8 @@
 <workingSet IMemento.internal.id="Zipkin"/>
 </workingSet>
 <mruList name="Day30-39"/>
+<mruList name="Day10-19"/>
+<mruList name="Day01-09"/>
 <mruList name="Day20-29"/>
 <mruList name="Reactive"/>
-<mruList name="Java Main Sources"/>
-<mruList name="Day01-09"/>
 </workingSetManager>
