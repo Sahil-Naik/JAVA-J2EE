@@ -2595,3 +2595,228 @@ java.util.concurrent.TimeoutException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:00:15.192
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:10:00.267
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:10:00.269
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-11 15:10:01.168
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:10:15.583
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:10:15.584
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:38.611
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:38.615
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-11 15:58:39.530
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:42.380
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:42.380
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day30-DJ-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:59.904
+!MESSAGE [Info] Document is null for editor: BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:58:59.904
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ServerBank/src/main/java/com/wipro/bank/BankManagementApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:32.582
+!MESSAGE [Info] Document is null for editor: CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:32.582
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientCustomer/src/main/java/com/wipro/customer/CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:33.976
+!MESSAGE [Info] Document is null for editor: BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:33.976
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:44.637
+!MESSAGE [Info] Document is null for editor: VendorApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:44.637
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientVendor/src/main/java/com/wipro/vendor/VendorApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:45.704
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 15:59:45.704
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:04:33.661
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:04:33.665
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-11 16:04:35.300
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.194
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.194
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.195
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.195
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.201
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:04:38.203
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:04:51.118
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:04:51.118
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:05:03.917
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:05:03.917
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:05:07.830
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:05:07.830
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:07:43.742
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:08:31.543
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:09:05.633
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:09:22.496
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:09:39.373
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:09:39.373
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:12:57.379
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:12:57.380
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/server-bank.properties
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:14:31.118
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:15:05.503
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:15:11.917
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:15:59.148
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:17:21.114
+!MESSAGE Classpath changed for project: Day26-Reactive-ConfigServer
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.874
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.875
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.893
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.893
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.922
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.922
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.942
+!MESSAGE [Info] Document is null for editor: server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.942
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/server-bank.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.953
+!MESSAGE [Info] Document is null for editor: server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.953
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/server-customer.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.981
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:48.981
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:49.004
+!MESSAGE [Info] Document is null for editor: ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:49.004
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/src/main/java/com/wipro/ConfigServerApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:49.116
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:22:49.116
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ServerBank/pom.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.279
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.279
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.280
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.280
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.286
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 16:22:54.289
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:23:10.923
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:23:10.924
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day30-DJ-ConfigServer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:23:37.411
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 16:23:37.411
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day26-Reactive-ConfigServer/pom.xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 16:23:43.479
+!MESSAGE Classpath changed for project: Day32-RDJ-ConfigServer
