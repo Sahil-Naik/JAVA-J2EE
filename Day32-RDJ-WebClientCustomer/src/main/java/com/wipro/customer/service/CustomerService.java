@@ -24,7 +24,7 @@ import reactor.core.publisher.Mono;
 @RefreshScope
 public class CustomerService {
 
-    @Autowired
+    //@Autowired
     private CustomerRepository customerRepository;
 
     @Autowired

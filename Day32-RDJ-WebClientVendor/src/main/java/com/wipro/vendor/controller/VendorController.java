@@ -28,8 +28,11 @@ import reactor.core.publisher.Mono;
 @Tag(name = "Vendor Management System", description = "Operations related to Vendors")
 public class VendorController {
 
-    @Autowired
-    private VendorService vendorService;
+	private final VendorService vendorService;
+
+    public VendorController(VendorService vendorService) {
+        this.vendorService = vendorService;
+    }
 
     @PostMapping("/add")
     @Operation(summary = "Add a new Vendor", description = "Adds a new vendor record to the database")

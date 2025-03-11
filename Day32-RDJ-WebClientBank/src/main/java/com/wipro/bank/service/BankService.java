@@ -20,7 +20,7 @@ import java.util.Optional;
 @RefreshScope
 public class BankService {
 
-	@Autowired
+	//@Autowired
     private BankRepository bankRepository;
 	
 	public Mono<Bank> addBankUser(Bank bankUser) {
