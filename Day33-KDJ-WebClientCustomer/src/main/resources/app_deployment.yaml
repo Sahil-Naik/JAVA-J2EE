@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webclient-customer
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webclient-customer
+  template:
+    metadata:
+      labels:
+        app: webclient-customer
+    spec:
+      containers:
+      - name: webclient-customer
+        image: your-docker-repo/webclient-customer:latest
+        ports:
+        - containerPort: 6060

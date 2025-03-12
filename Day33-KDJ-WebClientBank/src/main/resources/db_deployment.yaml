@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-bank
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-bank
+  template:
+    metadata:
+      labels:
+        app: mysql-bank
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:5.7
+        env:
+        - name: root
+          value: root
+        - name: banks_db
+          value: banks_db
+        ports:
+        - containerPort: 3307

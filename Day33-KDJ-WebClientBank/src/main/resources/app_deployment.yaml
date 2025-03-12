@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webclient-bank
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webclient-bank
+  template:
+    metadata:
+      labels:
+        app: webclient-bank
+    spec:
+      containers:
+      - name: webclient-bank
+        image: your-docker-repo/webclient-bank:latest
+        ports:
+        - containerPort: 6061

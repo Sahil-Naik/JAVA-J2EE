@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webclient-vendor
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webclient-vendor
+  template:
+    metadata:
+      labels:
+        app: webclient-vendor
+    spec:
+      containers:
+      - name: webclient-vendor
+        image: your-docker-repo/webclient-vendor:latest
+        ports:
+        - containerPort: 6062

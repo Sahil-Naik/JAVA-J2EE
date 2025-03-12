@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-vendor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-vendor
+  template:
+    metadata:
+      labels:
+        app: mysql-vendor
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:5.7
+        env:
+        - name: root
+          value: root
+        - name: vendors_db
+          value: vendors_db
+        ports:
+        - containerPort: 3309

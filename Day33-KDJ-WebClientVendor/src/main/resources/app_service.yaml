@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webclient-vendor
+spec:
+  type: ClusterIP
+  ports:
+  - port: 6062
+    targetPort: 6062
+  selector:
+    app: webclient-vendor

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-customer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-customer
+  template:
+    metadata:
+      labels:
+        app: mysql-customer
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:5.7
+        env:
+        - name: root
+          value: root
+        - name: customers_db
+          value: customers_db
+        ports:
+        - containerPort: 3308
