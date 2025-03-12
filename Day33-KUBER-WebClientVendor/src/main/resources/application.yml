@@ -1,0 +1,16 @@
+server:
+  port: 6062
+
+spring:
+  application:
+    name: server-vendor
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: microservices_db
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

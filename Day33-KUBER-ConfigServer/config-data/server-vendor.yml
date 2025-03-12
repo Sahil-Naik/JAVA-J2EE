@@ -1,0 +1,6 @@
+server:
+  port: 6062
+
+spring:
+  application:
+    name: server-vendor

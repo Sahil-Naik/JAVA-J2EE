@@ -1,0 +1,28 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: server-bank
+          uri: http://localhost:6060
+          predicates:
+            - Path=/bank/**
+
+        - id: server-customer
+          uri: http://localhost:6061
+          predicates:
+            - Path=/customer/**
+
+        - id: server-vendor
+          uri: http://localhost:6062
+          predicates:
+            - Path=/vendor/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
