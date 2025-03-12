@@ -5308,3 +5308,771 @@ java.lang.IllegalArgumentException: Argument not valid
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-11 18:35:28.530
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.593
+!MESSAGE [Info] Document is null for editor: CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.593
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientCustomer/src/main/java/com/wipro/customer/CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.611
+!MESSAGE [Info] Document is null for editor: CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.611
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientCustomer/src/main/java/com/wipro/customer/service/CustomerService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.706
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:38:50.707
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientCustomer/src/main/resources/application.properties
+!SESSION 2025-03-11 18:44:32.243 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 18:44:34.824
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 18:44:36.630
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-11 18:44:37.019
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-11 18:44:37.019
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-11 18:44:37.301
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-11 18:44:37.302
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-11 18:44:42.561
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:43.260
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:43.262
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:43.368
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:43.369
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-11 18:44:43.417
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741698883416
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:43.418
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-11 18:44:43.424
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4420
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.714
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.716
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.716
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.718
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.718
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.719
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.722
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.724
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.725
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.742
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.746
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.749
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.750
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.752
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.752
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.753
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.755
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.756
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.757
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.758
+!MESSAGE Boot project ADDED: Day22-RSB_BankUser
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.759
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.760
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.761
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.761
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.762
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.763
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.763
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.764
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.764
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.765
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.765
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.766
+!MESSAGE Boot project ADDED: Day24-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.767
+!MESSAGE Boot project ADDED: Day24-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.768
+!MESSAGE Boot project ADDED: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.769
+!MESSAGE Boot project ADDED: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.770
+!MESSAGE Boot project ADDED: Day24-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.771
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.772
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.773
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.774
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.775
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.776
+!MESSAGE Boot project ADDED: Day26-Reactive-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.777
+!MESSAGE Boot project ADDED: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.778
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.779
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.779
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.780
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.780
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.781
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.782
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.782
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.783
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.783
+!MESSAGE Boot project ADDED: Day27-Docker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.784
+!MESSAGE Boot project ADDED: Day27-Docker-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.785
+!MESSAGE Boot project ADDED: Day27-Docker-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.785
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.786
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.787
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.788
+!MESSAGE Boot project ADDED: Day29-Jenkins-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.788
+!MESSAGE Boot project ADDED: Day29-Jenkins-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.789
+!MESSAGE Boot project ADDED: Day29-Jenkins-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.790
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.790
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.792
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.793
+!MESSAGE Boot project ADDED: Day30-DJ-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.795
+!MESSAGE Boot project ADDED: Day30-DJ-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.796
+!MESSAGE Boot project ADDED: Day30-DJ-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.798
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.800
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.801
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.801
+!MESSAGE Boot project ADDED: Day32-RDJ-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.802
+!MESSAGE Boot project ADDED: Day32-RDJ-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.803
+!MESSAGE Boot project ADDED: Day32-RDJ-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.803
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.804
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-11 18:44:44.805
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientVendor
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:44:44.864
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:44:44.874
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:44:45.229
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-11 18:44:48.768
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:45:38.584
+!MESSAGE [Info] Document is null for editor: Bank.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:45:38.585
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/model/Bank.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.553
+!MESSAGE [Info] Document is null for editor: BankRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.553
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/repository/BankRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.569
+!MESSAGE [Info] Document is null for editor: BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.570
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/BankApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.582
+!MESSAGE [Info] Document is null for editor: CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.582
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientCustomer/src/main/java/com/wipro/customer/CustomerApiApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.604
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-11 18:47:42.604
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/controller/BankController.java
+!SESSION 2025-03-12 09:25:59.034 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-12 09:26:07.636
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-12 09:26:15.540
+!MESSAGE Logback config file: F:\JAVA-J2EE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-12 09:26:16.161
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-12 09:26:16.161
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-12 09:26:16.474
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-12 09:26:16.474
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-12 09:26:25.411
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-23\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/JAVA-J2EE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741751785411
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\PREDATOR\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:25.412
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-12 09:26:25.419
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 23208
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:26:27.910
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:26:27.932
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-12 09:26:28.378
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PREDATOR'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:26:28.432
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:28.857
+!MESSAGE Boot project ADDED: Day11-Injectors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:28.860
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:28.861
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:29.249
+!MESSAGE Boot project ADDED: Day11-SimpleSpring
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-12 09:26:30.103
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.259.0 initialized
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.303
+!MESSAGE Boot project ADDED: Day12-AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.304
+!MESSAGE Boot project ADDED: Day12-Wiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.306
+!MESSAGE Boot project ADDED: Day13-AppContext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.308
+!MESSAGE Boot project ADDED: Day13-AppContextWired
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.333
+!MESSAGE Boot project ADDED: Day13-SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.333
+!MESSAGE Boot project ADDED: Day13-SpringModelAttribute
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.342
+!MESSAGE Boot project ADDED: Day14-SpringMvcJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.353
+!MESSAGE Boot project ADDED: Day16-SpringJDBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.356
+!MESSAGE Boot project ADDED: Day18-HiberGenerate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.360
+!MESSAGE Boot project ADDED: Day18-SpringHiberORM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.374
+!MESSAGE Boot project ADDED: Day19-SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.376
+!MESSAGE Boot project ADDED: Day20-SpringBootAPIPaged
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.381
+!MESSAGE Boot project ADDED: Day21-ProperRestAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.383
+!MESSAGE Boot project ADDED: Day21-RestDTO
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.385
+!MESSAGE Boot project ADDED: Day22-DualAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.385
+!MESSAGE Boot project ADDED: Day22-FeignClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.385
+!MESSAGE Boot project ADDED: Day22-FeignClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.386
+!MESSAGE Boot project ADDED: Day22-RESTBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.386
+!MESSAGE Boot project ADDED: Day22-RESTCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.386
+!MESSAGE Boot project ADDED: Day22-RSB_BankUser
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.387
+!MESSAGE Boot project ADDED: Day22-ReactiveSpringBoot_demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.387
+!MESSAGE Boot project ADDED: Day22-SpringBootSwaggerUI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.387
+!MESSAGE Boot project ADDED: Day22-WebClientBankAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.388
+!MESSAGE Boot project ADDED: Day22-WebClientCustomerAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.389
+!MESSAGE Boot project ADDED: Day23-APIGateawayDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.389
+!MESSAGE Boot project ADDED: Day23-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.390
+!MESSAGE Boot project ADDED: Day23-ServerA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.390
+!MESSAGE Boot project ADDED: Day23-ServerB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.391
+!MESSAGE Boot project ADDED: Day23-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.392
+!MESSAGE Boot project ADDED: Day23-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.392
+!MESSAGE Boot project ADDED: Day23-ServerEmployee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.392
+!MESSAGE Boot project ADDED: Day24-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.393
+!MESSAGE Boot project ADDED: Day24-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.393
+!MESSAGE Boot project ADDED: Day24-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.394
+!MESSAGE Boot project ADDED: Day24-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.394
+!MESSAGE Boot project ADDED: Day24-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.395
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.395
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.395
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.395
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.396
+!MESSAGE Boot project ADDED: Day25-ZIPKIN-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.397
+!MESSAGE Boot project ADDED: Day26-Reactive-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.397
+!MESSAGE Boot project ADDED: Day26-Reactive-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.398
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.398
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.399
+!MESSAGE Boot project ADDED: Day26-Reactive-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.399
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.400
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.400
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.401
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.401
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.401
+!MESSAGE Boot project ADDED: Day27-Circuitbreaker-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.406
+!MESSAGE Boot project ADDED: Day27-Docker-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.407
+!MESSAGE Boot project ADDED: Day27-Docker-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.414
+!MESSAGE Boot project ADDED: Day27-Docker-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.414
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.414
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.415
+!MESSAGE Boot project ADDED: Day27-Docker-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.415
+!MESSAGE Boot project ADDED: Day29-Jenkins-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.416
+!MESSAGE Boot project ADDED: Day29-Jenkins-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.417
+!MESSAGE Boot project ADDED: Day29-Jenkins-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.417
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.418
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.419
+!MESSAGE Boot project ADDED: Day29-Jenkins-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.420
+!MESSAGE Boot project ADDED: Day30-DJ-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.420
+!MESSAGE Boot project ADDED: Day30-DJ-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.423
+!MESSAGE Boot project ADDED: Day30-DJ-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.424
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.424
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.425
+!MESSAGE Boot project ADDED: Day30-DJ-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.425
+!MESSAGE Boot project ADDED: Day32-RDJ-APIGateaway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.425
+!MESSAGE Boot project ADDED: Day32-RDJ-ConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.426
+!MESSAGE Boot project ADDED: Day32-RDJ-ServerRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.426
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientBank
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.426
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientCustomer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:26:34.427
+!MESSAGE Boot project ADDED: Day32-RDJ-WebClientVendor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:28:09.717
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:28:09.718
+!MESSAGE Boot project ADDED: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:28:11.590
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:28:12.072
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.eclipse.jface 2 0 2025-03-12 09:28:24.985
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-12 09:28:24.985
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-12 09:30:25.815
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2140)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:35:20.583
+!MESSAGE [Info] Document is null for editor: BankController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:35:20.583
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day32-RDJ-WebClientBank/src/main/java/com/wipro/bank/controller/BankController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-12 09:36:15.232
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2140)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:37:50.983
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:37:51.238
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.851
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.852
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.853
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.854
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.859
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-12 09:39:27.863
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY Activator 4 0 2025-03-12 09:39:47.715
+!MESSAGE DebugException: Launch configuration Day33-MR-User - Day33MrUserApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day33-MR-User%20-%20Day33MrUserApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Day33-MR-User - Day33MrUserApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day33-MR-User%20-%20Day33MrUserApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:322)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:307)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker$2.run(LaunchConfigurationTracker.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-12 09:39:47.716
+!MESSAGE Launch configuration Day33-MR-User - Day33MrUserApplication at file:/F:/JAVA-J2EE/.metadata/.plugins/org.eclipse.debug.core/.launches/Day33-MR-User%20-%20Day33MrUserApplication.launch does not exist.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-12 09:39:47.760
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///F:/JAVA-J2EE/Day33-MR-User/src/main/java/com/wipro/UserApplication.java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:43:27.847
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:43:27.950
+!MESSAGE Classpath changed for project: Day33-MR-User
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-12 09:43:30.039
+!MESSAGE Classpath changed for project: Day33-MR-User
