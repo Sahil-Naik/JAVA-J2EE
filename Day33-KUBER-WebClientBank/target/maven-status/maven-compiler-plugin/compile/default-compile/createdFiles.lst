@@ -1,0 +1,5 @@
+com\wipro\model\Bank.class
+com\wipro\Day33KuberWebClientBankApplication.class
+com\wipro\repository\BankRepository.class
+com\wipro\service\BankService.class
+com\wipro\controller\BankController.class
