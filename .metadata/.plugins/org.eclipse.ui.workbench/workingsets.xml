@@ -127,6 +127,7 @@
 <item elementID="=Day33-KDJ-WebClientBank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day33-KDJ-WebClientCustomer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Day33-KDJ-WebClientVendor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Day34-Capstone" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1737605560116_2" label="Window Working Set" name="Aggregate for window 1737605560116"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1737693258058_3" label="Window Working Set" name="Aggregate for window 1737693258058"/>
