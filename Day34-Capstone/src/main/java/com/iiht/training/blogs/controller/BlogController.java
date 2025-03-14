@@ -1,8 +1,11 @@
 package com.iiht.training.blogs.controller;
 
+import java.util.Map;
+import java.util.HashMap;
+import java.util.List;
+
 
 import jakarta.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -65,6 +68,22 @@ public class BlogController {
 	@ExceptionHandler(BlogNotFoundException.class)
 	public ResponseEntity<String> handleBlogNotFoundException(BlogNotFoundException ex) {
 		return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+	}
+	
+	@GetMapping("/comment/{id}")
+	public ResponseEntity<Map<String, Object>> getBlogWithComments(@PathVariable Long id) {
+	    // Retrieve Blog
+	    BlogDto blogDto = blogService.getBlogById(id);
+
+	    // Retrieve Comments
+	    List<CommentDto> comments = commentService.getCommentsByBlogId(id);
+
+	    // Prepare Response
+	    Map<String, Object> response = new HashMap<>();
+	    response.put("blog", blogDto);
+	    response.put("comments", comments);
+
+	    return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 }
 

@@ -1,5 +1,8 @@
 package com.iiht.training.blogs.service.impl;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,6 +38,22 @@ public class CommentServiceImpl implements CommentService {
 		// Convert back to DTO and return
 		return mapToDto(commentEntity);
 	}
+	
+	
+	@Override
+	public List<CommentDto> getCommentsByBlogId(Long blogId) {
+	    // Check if Blog exists
+	    if (!blogRepository.existsById(blogId)) {
+	        throw new BlogNotFoundException("Blog not found with ID: " + blogId);
+	    }
+
+	    // Fetch Comments
+	    List<CommentEntity> comments = commentRepository.findByBlogId(blogId);
+
+	    // Convert Entities to DTOs
+	    return comments.stream().map(this::mapToDto).collect(Collectors.toList());
+	}
+
 
 	// Helper Methods for Conversion
 	private CommentDto mapToDto(CommentEntity commentEntity) {
