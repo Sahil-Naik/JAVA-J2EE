@@ -28,6 +28,12 @@ public class BlogController {
 
 	@Autowired
 	private CommentService commentService;
+	
+	//Fetch all Blogs
+	@GetMapping
+	public List<BlogDto> getAllBlogs(){
+		return blogService.getAllBlogs();
+	}
 
 	// Create a Blog
 	@PostMapping
@@ -81,9 +87,15 @@ public class BlogController {
 	    // Prepare Response
 	    Map<String, Object> response = new HashMap<>();
 	    response.put("blog", blogDto);
-	    response.put("comments", comments);
+
+	    if (comments.isEmpty()) {
+	        response.put("comments", "There are no comments on this blog");
+	    } else {
+	        response.put("comments", comments);
+	    }
 
 	    return new ResponseEntity<>(response, HttpStatus.OK);
 	}
+
 }
 

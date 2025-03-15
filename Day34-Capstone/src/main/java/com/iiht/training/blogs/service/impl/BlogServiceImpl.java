@@ -1,30 +1,59 @@
 package com.iiht.training.blogs.service.impl;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
 import com.iiht.training.blogs.dto.BlogDto;
 import com.iiht.training.blogs.entity.BlogEntity;
-import com.iiht.training.blogs.exceptions.BlogNotFoundException;
+import com.iiht.training.blogs.exceptions.*;
 import com.iiht.training.blogs.repository.BlogRepository;
 import com.iiht.training.blogs.service.BlogService;
+
+import jakarta.transaction.Transactional;
 
 @Service
 public class BlogServiceImpl implements BlogService {
 
 	@Autowired
 	private BlogRepository blogRepository;
+	
+	@Override
+	public List<BlogDto> getAllBlogs(){
+		List<BlogEntity> blogEntities = blogRepository.findAll();
+		
+		// Convert List<BlogEntity> to List<BlogDto>
+	    return blogEntities.stream()
+	            .map(this::mapToDto)
+	            .collect(Collectors.toList());
+	}
 
+	/*
+	 * @Override public BlogDto createBlog(BlogDto blogDto) {
+	 * 
+	 * BlogEntity blogEntity = mapToEntity(blogDto);
+	 * 
+	 * blogEntity = blogRepository.save(blogEntity); // Convert back to DTO and
+	 * return return mapToDto(blogEntity); }
+	 */
+	
+	
 	@Override
 	public BlogDto createBlog(BlogDto blogDto) {
-		// Convert DTO to Entity
-		BlogEntity blogEntity = mapToEntity(blogDto);
-		// Save to DB
-		blogEntity = blogRepository.save(blogEntity);
-		// Convert back to DTO and return
-		return mapToDto(blogEntity);
+	    try {
+	    	// Convert DTO to Entity
+	        BlogEntity blogEntity = mapToEntity(blogDto);
+	        // Save to DB
+	        blogEntity = blogRepository.save(blogEntity);
+	        // Convert back to DTO and return
+	        return mapToDto(blogEntity);
+	    } catch (DataAccessException ex) {
+	        throw new DatabaseException("Error saving blog: " + ex.getMessage());
+	    }
 	}
 
 	@Override
@@ -36,21 +65,48 @@ public class BlogServiceImpl implements BlogService {
 		return mapToDto(blogEntity);
 	}
 
+	/*
+	 * @Override public BlogDto updateBlog(Long id, BlogDto blogDto) {
+	 * 
+	 * BlogEntity existingBlog = blogRepository.findById(id) .orElseThrow(() -> new
+	 * BlogNotFoundException("Blog not found with ID: " + id));
+	 * 
+	 * 
+	 * existingBlog.setTitle(blogDto.getTitle());
+	 * existingBlog.setContent(blogDto.getContent());
+	 * 
+	 * 
+	 * existingBlog = blogRepository.save(existingBlog);
+	 * 
+	 * 
+	 * return mapToDto(existingBlog); }
+	 */
+	
+	@Transactional
 	@Override
 	public BlogDto updateBlog(Long id, BlogDto blogDto) {
 		// Find Blog by ID
-		BlogEntity existingBlog = blogRepository.findById(id)
-				.orElseThrow(() -> new BlogNotFoundException("Blog not found with ID: " + id));
+	    BlogEntity existingBlog = blogRepository.findById(id)
+	            .orElseThrow(() -> new BlogNotFoundException("Blog not found with ID: " + id));
 
-		// Update Fields
-		existingBlog.setTitle(blogDto.getTitle());
-		existingBlog.setContent(blogDto.getContent());
+	    if (blogDto.getTitle() == null || blogDto.getTitle().isBlank()) {
+	        throw new InvalidRequestException("Title cannot be empty");
+	    }
+	    if (blogDto.getContent() == null || blogDto.getContent().isBlank()) {
+	        throw new InvalidRequestException("Content cannot be empty");
+	    }
+	    // Update Fields
+	    existingBlog.setTitle(blogDto.getTitle());
+	    existingBlog.setContent(blogDto.getContent());
 
-		// Save Updated Entity
-		existingBlog = blogRepository.save(existingBlog);
-
-		// Convert to DTO and return
-		return mapToDto(existingBlog);
+	    try {
+	    	// Save Updated Entity
+	        existingBlog = blogRepository.save(existingBlog);
+	        // Convert to DTO and return
+	        return mapToDto(existingBlog);
+	    } catch (DataAccessException ex) {
+	        throw new DatabaseException("Error updating blog: " + ex.getMessage());
+	    }
 	}
 
 	@Override
